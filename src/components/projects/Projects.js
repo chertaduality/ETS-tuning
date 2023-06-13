@@ -19,7 +19,7 @@ const Projects = () => {
         <div>
           {' '}
           <ProjectCard
-            title="Jeep Wrangler JK (Vandal)"
+            title="Jeep Wrangler JK test(Vandal)"
             src={projectVandal}
             des=" 
           • Современный окрас кузова в стиле Kryptek
