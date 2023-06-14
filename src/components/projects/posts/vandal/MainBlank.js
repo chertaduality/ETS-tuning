@@ -28,7 +28,7 @@ const MainBlank = () => {
 
   return (
     <div className="w-full flex flex-row">
-      <div className="w-[55%]">
+      <div className="w-[65%]">
         <Slider {...settings}>
           <div>
             <img src={v1} alt="v1" />

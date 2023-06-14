@@ -28,7 +28,7 @@ const ProjectModal = ({ show, onCloseButtonClick }) => {
   }
 
   return (
-    <div className="w-[98%]  h-[70%] absolute bg-[#ffffffe7] z-[90]  p-8 m-8 rounded-lg shadow-2xl overflow-scroll  left-0 backdrop-blur">
+    <div className="w-[16%]  top-0 absolute bg-[#ffffffe7] z-[90]  p-4  rounded-lg shadow-2xl left-center backdrop-blur">
       <div>
         <div>
           <span
@@ -50,7 +50,7 @@ const ProjectModal = ({ show, onCloseButtonClick }) => {
             <div className="w-full flex flex-col gap-2 text-xl  text-end font-semibold overflow-hidden">
               <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
                 <p onClick={() => setArt('salon')}>Салон</p>
-                <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+                <span className="absolute h-[1px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[200%] group-hover:translate-x-0 transition-transform duration-300"></span>
               </span>
               <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
                 <p onClick={() => setArt('susp')}>Подвеска</p>
