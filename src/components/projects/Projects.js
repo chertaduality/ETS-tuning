@@ -97,13 +97,13 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full py-20 mb-20 border-b-black xs:py-5"
+      className="w-full  py-20 mb-20 border-b-black xs:py-5"
     >
       {/* <section
       id="projects"
       className="w-full pb-20 items-center py-20 mb-20 border-b-black xs:py-5"
     > */}
-      <div className="flex justify-center items-center text-center">
+      <div className="flex font-titleFont justify-center items-center text-center">
         <Title title="Наши проекты" des="Что мы уже сделали?" />
       </div>
       <div className="w-full ">

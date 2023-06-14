@@ -3,6 +3,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      fontfamily: {
+        bodyFont: ['Montserrat', 'sans-serif'],
+        titleFont: ['Russo One', 'sans-serif'],
+      },
       screens: {
         xs: '320px',
         sm: '375px',
@@ -13,10 +17,7 @@ module.exports = {
         lgl: '1024px',
         xl: '1280px',
       },
-      fontfamily: {
-        bodyFont: ['Montserrat', 'sans-serif'],
-        titleFont: ['Montserrat', 'sans-serif'],
-      },
+
       colors: {
         bodyColor: 'white',
         lightText: 'black',

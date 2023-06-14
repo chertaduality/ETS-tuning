@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
-import logo from '../../assets/images/ETS_logo_black.png';
+import logo from '../../assets/images/ETS_logo_black2.png';
 import { navLinksdata } from '../../constants';
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="text-base font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+              className="font-titleFont font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
               key={_id}
             >
               <Link
