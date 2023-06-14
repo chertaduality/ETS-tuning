@@ -15,12 +15,12 @@ const ProjectCard = ({ title, des, src, link }) => {
     <div>
       {' '}
       {/* <ProjectModal show={showProject} onCloseButtonClick={toggleShowModal} /> */}
-      <div className="w-full xl:h-[400px] h-[300px] overflow-hidden xl:px-6  first-letter:mx-[-20px] xl:py-12 rounded-lg shadow-xl flex flex-col bg-bodyColor group hover:bg-gradient-to-b hover:from-bodyColor hover:to-[#ffefef] transition-colors duration-1000 group">
+      <div className="w-full xl:h-[500px] h-[300px] overflow-hidden xl:px-6  first-letter:mx-[-20px] xl:py-12 rounded-lg shadow-xl flex flex-col bg-bodyColor group hover:bg-gradient-to-b hover:from-bodyColor hover:to-[#ffefef] transition-colors duration-1000 group">
         {' '}
         <div className="w-full h-[90%] overflow-hidden rounded-lg z-[50]">
           {' '}
           <img
-            className="w-full h-96 object-cover group-hover:scale-110 duration-300"
+            className="w-full h-[500px] object-cover group-hover:scale-110 duration-300"
             src={src}
             alt="img"
           />
@@ -40,7 +40,7 @@ const ProjectCard = ({ title, des, src, link }) => {
                 className="w-10 h-8 flex flex-col justify-between "
               >
                 <div className="w-full flex mx-8 flex-col justify-between items-center">
-                  <p className="flex text-sm font-semibold mt-8 hover:text-designColor duration-100">
+                  <p className="flex text-sm font-semibold mt-12 hover:text-designColor duration-100">
                     Узнать больше
                     <span className="items-center px-4 flex text-2xl text-designColor ">
                       <HiArrowRight />

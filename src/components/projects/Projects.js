@@ -43,7 +43,7 @@ const Projects = () => {
     speed: 1000,
     rows: 2,
 
-    slidesPerRow: 2,
+    slidesPerRow: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {
