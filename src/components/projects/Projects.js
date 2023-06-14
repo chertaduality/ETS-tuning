@@ -15,7 +15,7 @@ const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-0 lgl:right-20 xs:right-0 xs:top-0 md:right-[40%]"
+      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-0 lgl:right-[45%] xs:right-0 xs:top-0 md:right-[40%]"
       onClick={onClick}
     >
       <BiRightArrow />
@@ -26,7 +26,7 @@ const SamplePrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-0 lgl:right-40 md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
+      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-0 lgl:right-[51%] md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
       onClick={onClick}
     >
       <BiLeftArrow />
@@ -38,6 +38,7 @@ const Projects = () => {
   const settings = {
     centerMode: true,
     infinite: true,
+    dots: true,
     centerPadding: '50px',
     slidesToShow: 1,
     speed: 1000,
@@ -109,7 +110,7 @@ const Projects = () => {
       <div className="w-full ">
         <Slider className="w-full " {...settings}>
           {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-14"> */}
-          <div>
+          <div className="p-4">
             <ProjectCard
               title="Jeep Wrangler JK (Vandal)"
               src={projectVandal}
@@ -126,14 +127,14 @@ const Projects = () => {
             />
           </div>
 
-          <div>
+          <div className="p-4 mb-12">
             <ProjectCard
               title="Honda Civic (Chicano)"
               src={projectChicano}
               des=" ⁃ Установка пневмодвески "
             />
           </div>
-          <div>
+          <div className="p-4">
             <ProjectCard
               title="Dodge RAM"
               src={projectRam}
@@ -143,7 +144,7 @@ const Projects = () => {
           • Замена передняя оптика "
             />
           </div>
-          <div>
+          <div className="p-4">
             <ProjectCard
               title="Lexus LC 500"
               src={projectLexus500}
@@ -152,7 +153,7 @@ const Projects = () => {
           • Обработка кузова керамическим составом "
             />
           </div>
-          <div>
+          <div className="p-4">
             <ProjectCard
               title="Mercedes—Benz G class AMG"
               src={projectGAMG}
@@ -175,7 +176,7 @@ const Projects = () => {
           -Печать шильдиков на 3D—принтере"
             />
           </div>
-          <div>
+          <div className="p-4">
             <ProjectCard
               title="Nissan GTR r35"
               src={projectGTRr35}

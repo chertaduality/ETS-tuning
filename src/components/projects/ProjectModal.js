@@ -28,7 +28,7 @@ const ProjectModal = ({ show, onCloseButtonClick }) => {
   }
 
   return (
-    <div className="w-[12%]  top-0 absolute bg-[#ffffffe7] z-[90]  p-4  rounded-lg shadow-2xl left-center backdrop-blur">
+    <div className="w-[12%] h-[95%] top-0 absolute bg-[#ffffffe7] z-[90]  p-4  rounded-lg shadow-2xl left-center backdrop-blur">
       <div>
         <div>
           <span
