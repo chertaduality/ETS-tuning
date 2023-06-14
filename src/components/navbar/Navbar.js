@@ -9,11 +9,22 @@ import { SlSocialVkontakte } from 'react-icons/sl';
 
 const Navbar = () => {
   const [showMenu, setShowMenu] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <div className="w-full h-24 sticky top-0 z-[150] bg-navbarColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-10 backdrop-blur ">
       <div>
-        <img className="h-[80px] " src={logo} alt="logo" />
+        <img
+          onClick={scrollToTop}
+          className="h-[80px] cursor-pointer"
+          src={logo}
+          alt="logo"
+        />
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
