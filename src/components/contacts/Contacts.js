@@ -41,7 +41,7 @@ const Contacts = () => {
       setEmail('');
       setSubject('');
       setMessage('');
-      console.log(userName, phoneNumber, email, subject, message);
+      // console.log(userName, phoneNumber, email, subject, message);
     }
   };
 
