@@ -1,4 +1,5 @@
 import React from 'react';
+import Slider from 'react-slick';
 import Title from './../layouts/Title';
 import ProjectCard from './ProjectCard';
 import projectVandal from '../../assets/images/projects/Jeep Wrangler JK (Vandal)/IMG_8004.jpg';
@@ -9,36 +10,56 @@ import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AM
 import projectGTRr35 from '../../assets/images/projects/Nissan GTR r35/IMG_4616_jpg.JPG';
 // import Vandal from './posts/Vandal';
 
+const settings = {
+  className: "center",
+  autoplay: true,
+  // className: "center",
+  centerMode: true,
+  infinite: true,
+  centerPadding: "60px",
+  slidesToShow: 3,
+  
+  speed: 500,
+      autoplaySpeed: 2000,
+      cssEase: "linear"
+};
+
+
+
 const Projects = () => {
   return (
     <section id="projects" className="w-full py-20 border-b-black xs:py-5">
       <div className="flex justify-center items-center text-center">
         <Title title="Наши проекты" des="Что мы уже сделали?" />
       </div>
+      <div>
+      <Slider {...settings}>
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-14">
-        <div>
-          {' '}
-          <ProjectCard
-            title="Jeep Wrangler JK (Vandal)"
-            src={projectVandal}
-            des=" 
-          • Современный окрас кузова в стиле Kryptek
-          • Подвеска повышенной проходимости 
-          • Салон перешив в стиле автомобиля с вышивкой логотипов 
-          • Аудио система  от Alpine 
-          • По всему кузову установлен дополнительное освещение от RIGID 
-          • Установлен обвес 
-          • Мощный двигатель 7.0 Hemi 
-          • Большие колёса 
-          • Задний диван разделён и смещён на два капитанских кресла"
-          />
-        </div>
-
+            <div>
+     
+     <ProjectCard
+       title="Jeep Wrangler JK (Vandal)"
+       src={projectVandal}
+       des=" 
+     • Современный окрас кузова в стиле Kryptek
+     • Подвеска повышенной проходимости 
+     • Салон перешив в стиле автомобиля с вышивкой логотипов 
+     • Аудио система  от Alpine 
+     • По всему кузову установлен дополнительное освещение от RIGID 
+     • Установлен обвес 
+     • Мощный двигатель 7.0 Hemi 
+     • Большие колёса 
+     • Задний диван разделён и смещён на два капитанских кресла"
+     />
+   </div>
+          </div>
+          <div>
         <ProjectCard
           title="Honda Civic (Chicano)"
           src={projectChicano}
           des=" ⁃ Установка пневмодвески "
-        />
+        /></div>
+             <div>
         <ProjectCard
           title="Dodge RAM"
           src={projectRam}
@@ -46,14 +67,16 @@ const Projects = () => {
           • Полный глобальный перешив салона из светлого серого в чёрный 
           • Выхлопная система с регулировкой громкости 
           • Замена передняя оптика "
-        />
+        /></div>
+              <div>
         <ProjectCard
           title="Lexus LC 500"
           src={projectLexus500}
           des=" • Полное удаление старого керамического покрытия 
           • 3х этапная полировка кузова  с разбором всех логотипов 
           • Обработка кузова керамическим составом "
-        />
+        /></div>
+         <div>
         <ProjectCard
           title="Mercedes—Benz G class AMG"
           src={projectGAMG}
@@ -74,7 +97,8 @@ const Projects = () => {
           -Чип тюнинг двигателя 5.5 bi-turbo 
           -Изготовление колпаков на колёса 
           -Печать шильдиков на 3D—принтере"
-        />
+        /></div>
+           <div>
         <ProjectCard
           title="Nissan GTR r35"
           src={projectGTRr35}
@@ -82,7 +106,14 @@ const Projects = () => {
           • Окрас задней стойки 
           • Мойка автомобиля "
         />
-      </div>
+        </div>
+          
+         
+          
+          
+        </Slider>
+      
+        </div>
     </section>
   );
 };
