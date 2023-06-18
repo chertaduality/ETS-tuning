@@ -37,7 +37,7 @@ const ContactLeft = () => {
             rel="noopener noreferrer"
           >
             {' '}
-            <span className="iconStyle">
+            <span className=" bg-gray-700 iconStyle">
               <FaTelegram />
             </span>
           </a>
@@ -47,7 +47,7 @@ const ContactLeft = () => {
             rel="noopener noreferrer"
           >
             {' '}
-            <span className="iconStyle">
+            <span className=" bg-gray-700 iconStyle">
               <FaWhatsapp />
             </span>
           </a>
@@ -58,7 +58,7 @@ const ContactLeft = () => {
             rel="noopener noreferrer"
           >
             {' '}
-            <span className="iconStyle">
+            <span className=" bg-gray-700 iconStyle">
               <SlSocialVkontakte />
             </span>
           </a>

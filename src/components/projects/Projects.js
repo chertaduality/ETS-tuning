@@ -10,6 +10,7 @@ import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AM
 import projectGTRr35 from '../../assets/images/projects/Nissan GTR r35/IMG_4616_jpg.JPG';
 // import Vandal from './posts/Vandal';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
+import { Routes } from 'react-router-dom';
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -98,7 +99,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full  py-20 mb-20 border-b-black xs:py-5"
+      className="w-full  py-20 mb-20 pt-40 border-b-black xs:py-5"
     >
       {/* <section
       id="projects"

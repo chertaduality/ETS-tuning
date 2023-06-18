@@ -1,13 +1,16 @@
 import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import logo from '../../assets/images/ETS_logo_black2.png';
+// import { Link } from 'react-scroll';
+import logo from '../../assets/images/ETS_logo_black3.png';
+import logo2 from '../../assets/images/ETS_logo_black4.png';
 import { navLinksdata } from '../../constants';
 import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
 import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
 import { SlSocialVkontakte } from 'react-icons/sl';
+// import { Link } from 'react-router-dom';
+import { HashLink as Link } from 'react-router-hash-link';
 
-const Navbar = () => {
+const Navbar = (_id, title, link) => {
   const [showMenu, setShowMenu] = useState(false);
   const scrollToTop = () => {
     window.scrollTo({
@@ -19,18 +22,119 @@ const Navbar = () => {
   return (
     <div className="w-full h-24 sticky top-0 z-[150] bg-navbarColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-10 backdrop-blur ">
       <div>
-        <img
-          onClick={scrollToTop}
-          className="h-[80px] cursor-pointer"
-          src={logo}
-          alt="logo"
-        />
+        <a href="/" className="flex">
+          <img
+            onClick={scrollToTop}
+            className="h-[80px] cursor-pointer"
+            src={logo}
+            alt="logo"
+          />
+          <img
+            onClick={scrollToTop}
+            className="h-[10px] cursor-pointer mt-[70px] hidden mdl:block"
+            src={logo2}
+            alt="logo2"
+          />
+        </a>
       </div>
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
+          <li
+            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+            onClick={scrollToTop}
+          >
+            <Link
+              activeClass="active"
+              to="/"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Главная
+            </Link>
+          </li>
+          <li
+            className="font-titleFont whitespace-nowrap text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+          >
+            <Link
+              activeClass="active"
+              to="/#about"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              О нас
+            </Link>
+          </li>
+          <li
+            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+          >
+            <Link
+              activeClass="active"
+              to="/#skills"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Услуги
+            </Link>
+          </li>
+          <li
+            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+          >
+            <Link
+              activeClass="active"
+              to="/#projects"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Проекты
+            </Link>
+          </li>
+          <li
+            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+          >
+            <Link
+              activeClass="active"
+              to="/#partners"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Партнеры
+            </Link>
+          </li>
+          <li
+            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            key={_id}
+          >
+            <Link
+              activeClass="active"
+              to="/#contacts"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+            >
+              Контакты
+            </Link>
+          </li>
+        </ul>
+        {/* <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
           {navLinksdata.map(({ _id, title, link }) => (
             <li
-              className="font-titleFont font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+              className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
               key={_id}
             >
               <Link
@@ -45,7 +149,7 @@ const Navbar = () => {
               </Link>
             </li>
           ))}
-        </ul>
+        </ul> */}
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-white hover:text-designColor cursor-pointer"

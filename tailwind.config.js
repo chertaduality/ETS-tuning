@@ -3,7 +3,7 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      fontfamily: {
+      fontFamily: {
         bodyFont: ['Montserrat', 'sans-serif'],
         titleFont: ['Russo One', 'sans-serif'],
       },
