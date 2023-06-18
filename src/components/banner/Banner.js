@@ -1,5 +1,5 @@
 import React from 'react';
-import videoSample from '../../assets/video/logo5.mp4';
+import videoSample from '../../assets/video/logo4.mp4';
 import { Routes } from 'react-router-dom';
 
 const Banner = () => {
