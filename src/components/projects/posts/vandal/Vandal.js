@@ -1,32 +1,32 @@
 import React, { useState } from 'react';
 import { MdClose } from 'react-icons/md';
-import MainBlank from './posts/vandal/MainBlank';
-import Salon from './posts/vandal/Salon';
-import Susp from './posts/vandal/Susp';
-import Kuzov from './posts/vandal/Kuzov';
-import Engine from './posts/vandal/Engine';
+// import MainBlank from './posts/vandal/MainBlank';
+// import Salon from './posts/vandal/Salon';
+// import Susp from './posts/vandal/Susp';
+// import Kuzov from './posts/vandal/Kuzov';
+// import Engine from './posts/vandal/Engine';
 // import Vandal from './Vandal';
 
 const Vandal = ({ show, onCloseButtonClick }) => {
   const [art, setArt] = useState('');
 
-  const handleShow = () => {
-    if (art === 'salon') {
-      return <Salon />;
-    } else if (art === 'susp') {
-      return <Susp />;
-    } else if (art === 'kuzov') {
-      return <Kuzov />;
-    } else if (art === 'engine') {
-      return <Engine />;
-    } else {
-      return <MainBlank />;
-    }
-  };
+  // const handleShow = () => {
+  //   if (art === 'salon') {
+  //     return <Salon />;
+  //   } else if (art === 'susp') {
+  //     return <Susp />;
+  //   } else if (art === 'kuzov') {
+  //     return <Kuzov />;
+  //   } else if (art === 'engine') {
+  //     return <Engine />;
+  //   } else {
+  //     return <MainBlank />;
+  //   }
+  // };
 
-  if (!show) {
-    return null;
-  }
+  // if (!show) {
+  //   return null;
+  // }
 
   return (
     <div className="w-[50%]   absolute bg-[#ffffffe7] z-[90]  p-8 m-8 rounded-lg shadow-2xl left-[24%] backdrop-blur">
@@ -69,7 +69,7 @@ const Vandal = ({ show, onCloseButtonClick }) => {
           </div>
 
           <div className="w-[85%] mx-auto h-auto flex gap-4 pt-10">
-            {art !== '' ? handleShow() : <MainBlank />}
+            {/* {art !== '' ? handleShow() : <MainBlank />} */}
           </div>
         </div>
       </div>
