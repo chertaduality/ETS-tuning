@@ -4,6 +4,7 @@ import Main from './components/main/Main';
 import Footer from './components/footer/Footer';
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Vandal from './components/projects/posts/vandal/Vandal';
+import AboutProject from './components/projects/posts/AboutProject';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
             <Routes>
               {' '}
               <Route path="/" element={<Main />} />
-              <Route path="vandal" element={<Vandal />} />
+              <Route path="aboutproject" element={<AboutProject />} />
             </Routes>{' '}
           </div>
         </div>

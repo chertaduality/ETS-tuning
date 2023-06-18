@@ -3,14 +3,20 @@ import { HiArrowRight } from 'react-icons/hi';
 import { useState } from 'react';
 import ProjectModal from './ProjectModal';
 import { Routes } from 'react-router-dom';
-// import Vandal from '../projects/posts/Vandal';
-import Vandal from './posts/vandal/Vandal';
+
+import { HashLink as Link } from 'react-router-hash-link';
 
 const ProjectCard = ({ title, des, src, link }) => {
   // const [showProject, setShowProject] = useState(false);
 
   // const toggleShowModal = () => {
   //   setShowProject(!showProject);
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  };
 
   return (
     <div>
@@ -38,14 +44,19 @@ const ProjectCard = ({ title, des, src, link }) => {
               {des}
             </p> */}
               {/* onClick={toggleShowModal} */}
-              <div className="w-full flex mx-8 flex-col justify-between items-center">
-                <p className="flex text-sm font-semibold mt-12 hover:text-designColor duration-100">
-                  Узнать больше
-                  <span className="items-center px-4 flex text-2xl text-designColor ">
-                    <HiArrowRight />
-                  </span>
-                </p>{' '}
-              </div>
+              <Link to="aboutproject" className="ml-0 pl-0">
+                <div
+                  onClick={scrollToTop}
+                  className="w-full flex  flex-col justify-between items-center"
+                >
+                  <p className="flex text-sm font-semibold mt-12 hover:text-designColor duration-100">
+                    Узнать больше
+                    <span className="items-center px-4 flex text-2xl text-designColor ">
+                      <HiArrowRight />
+                    </span>
+                  </p>{' '}
+                </div>
+              </Link>
             </div>
           </div>
         </div>

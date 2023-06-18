@@ -37,15 +37,12 @@ const SamplePrevArrow = (props) => {
 
 const Projects = () => {
   const settings = {
-    centerMode: true,
-    infinite: true,
     dots: true,
-    centerPadding: '50px',
-    slidesToShow: 1,
-    speed: 1000,
-    rows: 2,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 3,
 
-    slidesPerRow: 1,
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {
