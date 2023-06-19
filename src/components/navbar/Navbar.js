@@ -20,7 +20,7 @@ const Navbar = (_id, title, link) => {
   };
 
   return (
-    <div className="w-full h-24 sticky top-0 z-[150] bg-navbarColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-10 backdrop-blur ">
+    <div className="w-full h-24 fixed z-[150] bg-navbarColor mx-auto flex justify-between items-center font-titleFont border-b-[1px] border-b-gray-600 px-10 backdrop-blur ">
       <div>
         <a href="/" className="flex">
           <img
