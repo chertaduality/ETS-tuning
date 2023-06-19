@@ -1,16 +1,9 @@
 import React from 'react';
 import { HiArrowRight } from 'react-icons/hi';
-import { useState } from 'react';
-import ProjectModal from './ProjectModal';
-import { Routes } from 'react-router-dom';
-
 import { HashLink as Link } from 'react-router-hash-link';
 
 const ProjectCard = ({ title, des, src, link }) => {
-  // const [showProject, setShowProject] = useState(false);
 
-  // const toggleShowModal = () => {
-  //   setShowProject(!showProject);
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -21,10 +14,10 @@ const ProjectCard = ({ title, des, src, link }) => {
   return (
     <div>
       {' '}
-      {/* <ProjectModal show={showProject} onCloseButtonClick={toggleShowModal} /> */}
+
       <div className="w-full xl:h-[500px] h-[300px] overflow-hidden xl:px-6  first-letter:mx-[-20px] xl:py-12 rounded-lg shadow-xl flex flex-col bg-bodyColor group  transition-colors duration-1000 group hover:shadow-2xl">
         {' '}
-        {/* hover:bg-gradient-to-b hover:from-bodyColor hover:to-[#ffefef] */}
+  
         <div className="w-full h-[90%] overflow-hidden rounded-lg z-[50]">
           {' '}
           <img
@@ -39,12 +32,7 @@ const ProjectCard = ({ title, des, src, link }) => {
               <h3 className=" hover:text-designColor font-semibold ">
                 {title}
               </h3>
-              {/* <div className="flex gap-2">icons</div> */}{' '}
-              {/* <p className="text-sm  mt-3 hover:text-designColor duration-100">
-              {des}
-            </p> */}
-              {/* onClick={toggleShowModal} */}
-              <Link to="aboutproject" className="ml-0 pl-0">
+              <Link to="aboutprojects" className="ml-0 pl-0">
                 <div
                   onClick={scrollToTop}
                   className="w-full flex  flex-col justify-between items-center"
@@ -60,7 +48,6 @@ const ProjectCard = ({ title, des, src, link }) => {
             </div>
           </div>
         </div>
-        {/* <ProjectModal show={showProject} onCloseButtonClick={toggleShowModal} /> */}
       </div>
     </div>
   );
