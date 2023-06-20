@@ -9,7 +9,7 @@ const Banner = () => {
       className="w-full pt-0 mt-0 pb-20 flex flex-col lgl:flex-row items-center"
     >
       {' '}
-      <video className="w-full" id="/" autoPlay loop muted>
+      <video className="w-full" id="/" autoPlay  muted>
         <source src={videoSample} type="video/mp4" />
       </video>
     </section>
