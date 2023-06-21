@@ -36,13 +36,13 @@ const Main = () => {
                 shouldAlwaysCompleteAnimation: true,
                 expanded: false,
               },
-              // {
-              //   image: bg2,
-              //   translateY: [5, 45],
+              {
+                image: bg2,
+                translateY: [5, 45],
 
-              //   shouldAlwaysCompleteAnimation: true,
-              //   expanded: false,
-              // },
+                shouldAlwaysCompleteAnimation: true,
+                expanded: false,
+              },
               {
                 image: bg3,
                 translateY: [10, 30],
