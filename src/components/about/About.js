@@ -1,8 +1,11 @@
 import React from 'react';
 import Title from '../layouts/Title';
 
+
 const About = () => {
+
   return (
+    
     <section id="about" className="w-full py-20 border-b-black px-10">
       <div className="flex justify-center items-center text-center">
         <Title title="О нас" des="Кто мы?" />
