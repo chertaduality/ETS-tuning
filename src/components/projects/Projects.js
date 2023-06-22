@@ -8,9 +8,8 @@ import projectRam from '../../assets/images/projects/Dodge RAM/IMG_7509.jpg';
 import projectLexus500 from '../../assets/images/projects/Lexus LC 500/DSC_0986.jpg';
 import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AMG/Mer_01_.jpg';
 import projectGTRr35 from '../../assets/images/projects/Nissan GTR r35/IMG_4616_jpg.JPG';
-// import Vandal from './posts/Vandal';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
-import { Routes } from 'react-router-dom';
+
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;

@@ -11,7 +11,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="vandal"
+              to="paint"
               spy={true}
               smooth={true}
               offset={-70}
@@ -26,7 +26,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="detail"
               spy={true}
               smooth={true}
               offset={-70}
@@ -41,7 +41,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="carbon"
               spy={true}
               smooth={true}
               offset={-70}
@@ -56,7 +56,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="body"
               spy={true}
               smooth={true}
               offset={-70}
@@ -71,7 +71,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="add"
               spy={true}
               smooth={true}
               offset={-70}
@@ -86,7 +86,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="tailoring"
               spy={true}
               smooth={true}
               offset={-70}
@@ -101,7 +101,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="clearing"
               spy={true}
               smooth={true}
               offset={-70}
@@ -116,7 +116,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="fiberglass"
               spy={true}
               smooth={true}
               offset={-70}
@@ -131,7 +131,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="model3d"
               spy={true}
               smooth={true}
               offset={-70}
@@ -146,7 +146,7 @@ const SkillsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="gclassamg"
+              to="service"
               spy={true}
               smooth={true}
               offset={-70}

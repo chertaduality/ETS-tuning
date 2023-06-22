@@ -21,7 +21,6 @@ const AboutSkills = () => {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
           id="/"
           autoPlay
-         
           muted
         >
           <source src={videoSampleProj} type="video/mp4" />

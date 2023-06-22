@@ -1,6 +1,5 @@
 import React from 'react';
-import { Link, Route, Router, Routes } from 'react-router-dom';
-import ProjectBanner from './ProjectBanner';
+import { Route, Routes } from 'react-router-dom';
 import Vandal from './vandal/Vandal';
 import GclassAMG from './gclassamg/GclassAMG';
 import PostsList from './PostsList';
