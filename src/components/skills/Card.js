@@ -1,6 +1,7 @@
 import React from 'react';
 import { HiArrowRight } from 'react-icons/hi';
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
+import { HashLink as Link } from 'react-router-hash-link';
 
 const Card = ({ title, des, icon }) => {
   return (
@@ -27,7 +28,23 @@ const Card = ({ title, des, icon }) => {
             <h2 className="text-2xl md:text-xl sm:text-sm font-titleFont font-bold uppercase">
               {title}
             </h2>
-            <p className="base md:text-l sm:text-sm">{des}</p>
+            <p className="base md:text-l sm:text-l">{des}</p>
+            <div className='flex flex-row justify-between py-8'> 
+            <span className="text-2xl text-designColor flex gap-2">
+              <Link
+                className="text-base font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300"
+                activeClass="active"
+                to="aboutskills"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={1000}
+              >
+                Узнать подробнее
+              </Link>
+
+              <HiArrowRight />
+            </span>
             <span className="text-2xl text-designColor flex gap-2">
               <Link
                 className="text-base font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300"
@@ -43,6 +60,7 @@ const Card = ({ title, des, icon }) => {
 
               <HiArrowRight />
             </span>
+            </div>
           </div>
         </div>
       </div>

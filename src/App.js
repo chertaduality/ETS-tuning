@@ -8,6 +8,7 @@ import AboutProjects from './components/projects/posts/AboutProjects';
 import ProjectBanner from './components/projects/posts/ProjectBanner';
 import Vandal from './components/projects/posts/vandal/Vandal';
 import GclassAMG from './components/projects/posts/gclassamg/GclassAMG';
+import AboutSkills from './components/skills/AboutSkills';
 
 
 const App = () => {
@@ -20,6 +21,7 @@ const App = () => {
             <Routes>
 
               <Route path="/" element={<Main />} />
+              <Route path='aboutskills' element={<AboutSkills/>}/>
               <Route path="aboutprojects" element={<AboutProjects />} >
               <Route path=":projectbanner" element={<ProjectBanner/>} />
               <Route path=":vandal" element={<Vandal/>} />
