@@ -14,55 +14,57 @@ console.log(isPaintShown)
   return (
     <div className="w-full  mt-24 ">
       <ul className="flex flex-col gap-8 font-medium overflow-hidden py-16 mx-10 ">
-        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "     
+        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 flex"                  
+    onMouseEnter={() => setPaintIsShown(true)}
+    onMouseLeave={() => setPaintIsShown(false)} 
   >
           
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group" >
             <Link
-              activeClass="active"
+              // activeClass="active"
+              className=''
               to="paint"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-              onMouseEnter={() => setPaintIsShown(true)}
-              onMouseLeave={() => setPaintIsShown(false)}  
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={1000}
+            
             >
               Малярный цех
             </Link>
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300" ></span>
           </span>
           {isPaintShown && (
-            <div  className="w-screen h-screen z-10 rounded fixed top-0">
+            <div  className="w-screen h-screen pl-[250px] xl:pl-[500px] z-10 rounded absolute top-0">
               <img
-          className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="w-full  rounded overflow-hidden"
           src={paint}
           alt='alt'
         /></div>
       )}
       
         </li>
-        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 py-4"   >
+        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 py-4"    onMouseEnter={() => setDetailIsShown(true)}
+              onMouseLeave={() => setDetailIsShown(false)}  >
       
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group"  >
             <Link
-              activeClass="active"
+              // activeClass="active"
               to="detail"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-              onMouseEnter={() => setDetailIsShown(true)}
-              onMouseLeave={() => setDetailIsShown(false)} 
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={1000}
+            
             >
               Цех чистоты и блеска
             </Link>
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
           {isDetailShown && (
-            <div  className="w-screen h-screen z-10 rounded fixed top-0">
+            <div  className="w-screen h-screen ml-[250px] xl:ml-[500px]  z-10 rounded absolute top-0"> 
               <img
-          className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="w-full  rounded overflow-hidden bg-blue-300 border-solid border-2 border-black"
           src={detailing}
           alt='alt'
         />
@@ -70,25 +72,26 @@ console.log(isPaintShown)
       )}
     
         </li>
-        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 " >
+        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "   onMouseEnter={() => setCarbonIsShown(true)}
+              onMouseLeave={() => setCarbonIsShown(false)} >
        
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group"  >
             <Link
-              activeClass="active"
+              // activeClass="active"
+              
               to="carbon"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={1000}
-              onMouseEnter={() => setCarbonIsShown(true)}
-              onMouseLeave={() => setCarbonIsShown(false)} 
+              // spy={true}
+              // smooth={true}
+              // offset={-70}
+              // duration={1000}
+            
             >
               Carbon цех
             </Link>
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
           {isCarbonShown && (
-            <div  className="w-screen h-screen z-10 rounded fixed top-0">
+            <div  className="w-screen h-screen z-10 rounded absolute top-0">
               <img
           className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={carbon}
