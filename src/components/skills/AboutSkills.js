@@ -14,24 +14,27 @@ import Service from './aboutskills/Service';
 import SkillsList from './SkillsList';
 
 const AboutSkills = () => {
+
+
+
   return (
     <section className="w-screen ">
       <div className="w-full fixed">
-        <video
+        {/* <video
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
           id="/"
           autoPlay
           muted
         >
           <source src={videoSampleProj} type="video/mp4" />
-        </video>
+        </video> */}
       </div>
       <div className="w-[20%] fixed z-20 h-screen bg-white">
         <SkillsList />
       </div>
       <div className="w-[78%] absolute z-20 h-screen pr-12 right-0">
         <Routes>
-          <Route path="paint" element={<Paint className="scroll" />} />
+          <Route path="paint" element={<Paint className="scroll " />} />
           <Route path="detail" element={<Detail className="scroll" />} />
           <Route path="carbon" element={<Carbon className="scroll" />} />
           <Route path="body" element={<Body className="scroll" />} />
