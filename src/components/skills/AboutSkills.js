@@ -12,8 +12,9 @@ import Fiberglass from './aboutskills/Fiberglass';
 import Model3d from './aboutskills/Model3d';
 import Service from './aboutskills/Service';
 import SkillsList from './SkillsList';
-import Parallax from '../parallax/Parallax';
 import logo from '../../assets/images/ETS_logo_black.png'
+
+
 
 const AboutSkills = () => {
 
@@ -22,16 +23,16 @@ const AboutSkills = () => {
   return (
     <section className="w-screen ">
       <div className="w-full">
-      {/* <img className='absolute pt-[20%] pl-[45%] z-0' src={logo} alt=''/>  */}
-        <video
+      <img className='absolute pt-[20%] pl-[45%] z-0' src={logo} alt=''/> 
+        {/* <video
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
           id="/"
           autoPlay
           muted
         >
           <source src={videoSampleProj} type="video/mp4" />
-        </video>
-        {/* <Parallax/> */}
+        </video> */}
+        
       </div>
       <div className="max-w-[20%] fixed z-20 h-screen bg-white">
         <SkillsList />

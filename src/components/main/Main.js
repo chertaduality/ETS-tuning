@@ -22,9 +22,9 @@ const Main = () => {
   
   return (
     <div>
-       <ParallaxProvider>
+       {/* <ParallaxProvider> */}
       <div ref={ref} className="w-full h-auto bg-bodyColor text-lightText">
-      <ParallaxBanner
+      {/* <ParallaxBanner
             className="banner"
             layers={[
               {
@@ -62,30 +62,35 @@ const Main = () => {
                 expanded: false,
               },
             ]}
-          >
+          > */}
         <Banner />
         <div className="max-w-screen-xl mx-auto ">
-        <AnimationOnScroll animateIn="animate__fadeIn">
+        <AnimationOnScroll animateIn="animate__fadeIn"  
+  animateOnce={true}>
            <About />
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn"  
+  animateOnce={true}>
           <Skills />
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn" 
+  animateOnce={true}>
           <Projects />
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn" 
+  animateOnce={true}>
           <Partners />
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeIn">
+          <AnimationOnScroll animateIn="animate__fadeIn"  
+  animateOnce={true}>
           <Contacts />
           </AnimationOnScroll>
           {/* <Footer /> */}
           {/* <Copyright /> */}
         </div>
-        </ParallaxBanner>
+        {/* </ParallaxBanner> */}
       </div>
-      </ParallaxProvider>
+      {/* </ParallaxProvider> */}
     </div>
   );
 };

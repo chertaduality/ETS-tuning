@@ -5,6 +5,15 @@ import partner1 from '../../assets/partners/PremiumCaste-cvet.webp';
 import partner2 from '../../assets/partners/592462.webp';
 import partner3 from '../../assets/partners/Sti-Logo.png';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
+import sti from '../../assets/images/partners/Sti-Logo.png'
+import trd from '../../assets/images/partners/trd.webp'
+import hks from '../../assets/images/partners/hks.png'
+import greddy from '../../assets/images/partners/GReddy.png'
+import nos from '../../assets/images/partners/nos-logo.png'
+import ural from '../../assets/images/partners/ural.webp'
+import db from '../../assets/images/partners/DB.jpg'
+import machete from '../../assets/images/partners/machete.jpg'
+import airlift from '../../assets/images/partners/airlift.png'
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -91,7 +100,25 @@ const Partners = () => {
         <Title title="Наши партнеры" des="Кто нам помогает?" />
       </div>
       <div className="max-w-6xl mx-auto h-auto">
-        <Slider {...settings}>
+          <div className='w-full flex flex-row gap-8 '>
+            <div className='justify-between'>
+              <img src={sti} alt='' className='h-48'/>
+            <img src={trd} alt='' className='h-48'/>
+            <img src={airlift} alt='' className='h-48'/>
+            </div>
+            <div className='justify-between'>
+               <img src={greddy} alt='' className='h-48'/>
+            <img src={hks} alt='' className='h-48'/>
+            <img src={ural} alt='' className='h-24'/>
+            </div>
+           <div className=' justify-between'>
+            <img src={db} alt='' className='h-48'/>
+            <img src={machete} alt='' className='h-24'/>
+            <img src={nos} alt='' className='h-48'/>
+           </div>
+            
+          </div>
+        {/* <Slider {...settings}>
           <div className="w-full ">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between ">
               <div className="w-full lgl:w-[35%] h-full p-8 rounded-lg shadow-xl flex flex-col md:flex-row lgl:flex-col gap-2 justify-center text-center md:justify-start lgl:justify-center ">
@@ -212,7 +239,7 @@ const Partners = () => {
               </div>
             </div>
           </div>
-        </Slider>
+        </Slider> */}
       </div>
     </section>
   );
