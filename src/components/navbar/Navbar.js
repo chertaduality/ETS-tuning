@@ -50,7 +50,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               Главная
             </Link>
@@ -65,7 +65,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               О нас
             </Link>
@@ -80,7 +80,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               Услуги
             </Link>
@@ -95,7 +95,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               Проекты
             </Link>
@@ -110,7 +110,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               Партнеры
             </Link>
@@ -125,7 +125,7 @@ const Navbar = (_id, title, link) => {
               spy={true}
               smooth={true}
               offset={-70}
-              duration={1000}
+              duration={2000}
             >
               Контакты
             </Link>
