@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import Vandal from './vandal/Vandal';
 import GclassAMG from './gclassamg/GclassAMG';
 import PostsList from './PostsList';
-import videoSampleProj from '../../../assets/video/logo5.mp4';
+import videoSampleProj from '../../../assets/video/logo6.mp4';
 
 const AboutProjects = () => {
   return (
@@ -13,7 +13,6 @@ const AboutProjects = () => {
           className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
           id="/"
           autoPlay
-         
           muted
         >
           <source src={videoSampleProj} type="video/mp4" />

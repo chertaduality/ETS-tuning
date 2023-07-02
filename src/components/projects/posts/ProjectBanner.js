@@ -1,18 +1,15 @@
-import React from "react"
-import videoSampleProj from '../../../assets/video/logo5.mp4'
-
-
+import React from 'react';
+import videoSampleProj from '../../../assets/video/logo6.mp4';
 
 const ProjectBanner = () => {
-    <section className="w-screen">
-{' '}
-<div>
-  <video className="w-full absolute z-0" id="/" autoPlay loop muted>
-    <source src={videoSampleProj} type="video/mp4" />
-  </video>
-</div>
-</section>
-}
+  <section className="w-screen">
+    {' '}
+    <div>
+      <video className="w-full absolute z-0" id="/" autoPlay loop muted>
+        <source src={videoSampleProj} type="video/mp4" />
+      </video>
+    </div>
+  </section>;
+};
 
-
-export default ProjectBanner
+export default ProjectBanner;

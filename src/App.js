@@ -1,8 +1,7 @@
-import React from 'react';
+import React, { useState } from 'react';
 import Navbar from './components/navbar/Navbar';
 import Copyright from './components/footer/Copyright';
 import Main from './components/main/Main';
-
 import { Route, Routes } from 'react-router-dom';
 import AboutProjects from './components/projects/posts/AboutProjects';
 import Vandal from './components/projects/posts/vandal/Vandal';
@@ -20,34 +19,45 @@ import Model3d from './components/skills/aboutskills/Model3d';
 import Service from './components/skills/aboutskills/Service';
 
 const App = () => {
+  const [loading, setLoading] = useState(true);
+  const spinner = document.getElementById('spinner');
+  if (spinner) {
+    setTimeout(() => {
+      spinner.style.display = 'none';
+      setLoading(false);
+    }, 2000);
+  }
+
   return (
-    <div>
+    !loading && (
       <div>
-        <Navbar />
         <div>
-          <Routes>
-            <Route path="/" element={<Main />} />
-            <Route path="aboutskills" element={<AboutSkills />}>
-              <Route path=":paint" element={<Paint />} />
-              <Route path=":detail" element={<Detail />} />
-              <Route path=":carbon" element={<Carbon />} />
-              <Route path=":body" element={<Body />} />
-              <Route path=":add" element={<Add />} />
-              <Route path=":tailoring" element={<Tailoring />} />
-              <Route path=":clearing" element={<Clearing />} />
-              <Route path=":fiberglass" element={<Fiberglass />} />
-              <Route path=":model3d" element={<Model3d />} />
-              <Route path=":service" element={<Service />} />
-            </Route>
-            <Route path="aboutprojects" element={<AboutProjects />}>
-              <Route path=":vandal" element={<Vandal />} />
-              <Route path=":gclassamg" element={<GclassAMG />} />
-            </Route>
-          </Routes>{' '}
+          <Navbar />
+          <div>
+            <Routes>
+              <Route path="/" element={<Main />} />
+              <Route path="aboutskills" element={<AboutSkills />}>
+                <Route path=":paint" element={<Paint />} />
+                <Route path=":detail" element={<Detail />} />
+                <Route path=":carbon" element={<Carbon />} />
+                <Route path=":body" element={<Body />} />
+                <Route path=":add" element={<Add />} />
+                <Route path=":tailoring" element={<Tailoring />} />
+                <Route path=":clearing" element={<Clearing />} />
+                <Route path=":fiberglass" element={<Fiberglass />} />
+                <Route path=":model3d" element={<Model3d />} />
+                <Route path=":service" element={<Service />} />
+              </Route>
+              <Route path="aboutprojects" element={<AboutProjects />}>
+                <Route path=":vandal" element={<Vandal />} />
+                <Route path=":gclassamg" element={<GclassAMG />} />
+              </Route>
+            </Routes>{' '}
+          </div>
+          <Copyright />
         </div>
-        <Copyright />
       </div>
-    </div>
+    )
   );
 };
 
