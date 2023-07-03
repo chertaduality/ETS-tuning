@@ -50,16 +50,13 @@ console.log(isPaintShown)
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300" ></span>
           </span>
           {isPaintShown && (
-            <div  className="w-screen h-screen pl-[250px] xl:pl-[500px] z-0 rounded absolute top-0 ">
+            <div  className="w-screen h-screen  pl-[250px] xl:pl-[500px] z-0 rounded absolute top-0 ">
               <img
-          className="w-full  rounded overflow-hidden "
+          className="w-full hidden lg:block rounded overflow-hidden "
           src={paint}
           alt='alt'
         /></div>
       )}
- 
-      
-      
         </li>
         <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "    >
       
@@ -83,7 +80,7 @@ console.log(isPaintShown)
           {isDetailShown && (
             <div  className="w-screen h-screen ml-[250px] xl:ml-[500px]  z-0 rounded absolute top-0"> 
               <img
-          className="w-full  rounded overflow-hidden border-solid border-2 border-black"
+          className="w-full hidden lg:block  rounded overflow-hidden border-solid border-2 border-black"
           src={detailing}
           alt='alt'
         />
@@ -114,7 +111,7 @@ console.log(isPaintShown)
           {isCarbonShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="w-full hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={carbon}
           alt='alt'
         />
@@ -141,7 +138,7 @@ console.log(isPaintShown)
           {isBodyShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="w-full hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={body}
           alt='alt'
         />
@@ -167,7 +164,7 @@ console.log(isPaintShown)
           {isAddShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="w-full pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="w-full hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={add}
           alt='alt'
         />
@@ -193,7 +190,7 @@ console.log(isPaintShown)
           {isTailoringShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="h-screen  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="h-screen hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={tailoring}
           alt='alt'
         />
@@ -219,7 +216,7 @@ console.log(isPaintShown)
           {isClearingShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="h-screen  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="h-screen hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={clearing}
           alt='alt'
         />
@@ -245,7 +242,7 @@ console.log(isPaintShown)
           {isFiberglassShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="h-screen w-auto pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="h-screen hidden lg:block  w-auto pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={fiberglass}
           alt='alt'
         />
@@ -271,7 +268,7 @@ console.log(isPaintShown)
           {isModel3dShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="h-screen pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="h-screen hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={model3d}
           alt='alt'
         />
@@ -297,7 +294,7 @@ console.log(isPaintShown)
           {isServiceShown && (
             <div  className="w-screen h-screen z-0 rounded absolute top-0">
               <img
-          className="h-screen pl-[250px] xl:pl-[500px] rounded overflow-hidden"
+          className="h-screen hidden lg:block  pl-[250px] xl:pl-[500px] rounded overflow-hidden"
           src={service}
           alt='alt'
         />
