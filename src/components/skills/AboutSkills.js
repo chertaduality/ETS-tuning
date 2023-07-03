@@ -1,5 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { Route, Routes } from 'react-router-dom';
+import { FiMenu } from 'react-icons/fi';
+import { MdClose } from 'react-icons/md';
+import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
+import { SlSocialVkontakte } from 'react-icons/sl';
 import videoSampleProj from '../../../src/assets/video/logo5.mp4';
 import Paint from './aboutskills/Paint';
 import Detail from './aboutskills/Detail';
@@ -18,6 +22,7 @@ import logo from '../../assets/images/ETS_logo_black.png'
 
 const AboutSkills = () => {
 
+  const [showMenu, setShowMenu] = useState(false);
 
 
   return (
@@ -34,10 +39,11 @@ const AboutSkills = () => {
         </video> */}
         
       </div>
-      <div className="max-w-[20%] fixed z-20 h-screen bg-white">
+      <div className='flex flex-col'>
+      <div className="lg:w-[20%] w-[100%] lg:fixed z-20 h-screen bg-white">
         <SkillsList />
       </div>
-      <div className="w-[78%] absolute z-20 h-screen pr-12 right-0">
+      <div className="lg:w-[78%] w-auto lg:absolute  flex  z-20 h-screen pr-12 right-0">
        
      
       <Routes>
@@ -53,6 +59,8 @@ const AboutSkills = () => {
           <Route path="service" element={<Service className="scroll" />} />
         </Routes>
       </div>
+      </div>
+     
     </section>
   );
 };

@@ -152,7 +152,7 @@ const Navbar = (_id, title, link) => {
         </ul> */}
         <span
           onClick={() => setShowMenu(!showMenu)}
-          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-white hover:text-designColor cursor-pointer"
+          className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-white hover:text-designColor cursor-pointer m-8"
         >
           <FiMenu />
         </span>

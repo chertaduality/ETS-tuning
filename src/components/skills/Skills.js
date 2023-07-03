@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { motion } from 'framer-motion';
 import Title from '../layouts/Title';
 import Card from './Card';
@@ -13,6 +13,7 @@ import {
 import { HiCubeTransparent } from 'react-icons/hi';
 
 const Skills = () => {
+ 
   return (
     <motion.section
       initial="hidden"
@@ -46,7 +47,7 @@ const Skills = () => {
         />
         <Card
           title="Цех дополнительных систем"
-          des="Установка и настройка мультимедийных систем, пневмоподвески, звездное небо и многое другое."
+          des="Установка и настройка мультимедийных систем, пневмоподвескии многое другое."
           icon={<GiMultiDirections />}
         />
         <Card
@@ -56,7 +57,7 @@ const Skills = () => {
         />
         <Card
           title="Цех обработки и очистки деталей"
-          des="Аквабласт, пескоструйная чистка, гальванизация. Устранение загрязнений и амортизационных отложений."
+          des="Аквабласт, пескоструйная чистка, гальванизация. "
           icon={<MdOutlineTipsAndUpdates />}
         />
         <Card

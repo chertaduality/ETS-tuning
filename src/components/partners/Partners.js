@@ -5,15 +5,16 @@ import partner1 from '../../assets/partners/PremiumCaste-cvet.webp';
 import partner2 from '../../assets/partners/592462.webp';
 import partner3 from '../../assets/partners/Sti-Logo.png';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
-import sti from '../../assets/images/partners/Sti-Logo.png'
-import trd from '../../assets/images/partners/trd.webp'
-import hks from '../../assets/images/partners/hks.png'
-import greddy from '../../assets/images/partners/GReddy.png'
-import nos from '../../assets/images/partners/nos-logo.png'
-import ural from '../../assets/images/partners/ural.webp'
-import db from '../../assets/images/partners/DB.jpg'
-import machete from '../../assets/images/partners/machete.jpg'
-import airlift from '../../assets/images/partners/airlift.png'
+import aceoface from '../../assets/images/partners/aceoface.jpg'
+import allsubaru from '../../assets/images/partners/allsubaru.png'
+import ChemicalRussia from '../../assets/images/partners/ChemicalRussia.png'
+import fabfours from '../../assets/images/partners/fabfours.svg'
+import Metalcloak from '../../assets/images/partners/Metalcloak.png'
+import rigid from '../../assets/images/partners/rigid.png'
+import sgm from '../../assets/images/partners/sgm.png'
+import statlight from '../../assets/images/partners/statlight.png'
+import subaru from '../../assets/images/partners/subaru.jpg'
+import vdashop from '../../assets/images/partners/vdashop.jpg'
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -100,23 +101,17 @@ const Partners = () => {
         <Title title="Наши партнеры" des="Кто нам помогает?" />
       </div>
       <div className="max-w-6xl mx-auto h-auto">
-          <div className='w-full flex flex-row gap-8 '>
-            <div className='justify-between'>
-              <img src={sti} alt='' className='h-48'/>
-            <img src={trd} alt='' className='h-48'/>
-            <img src={airlift} alt='' className='h-48'/>
-            </div>
-            <div className='justify-between'>
-               <img src={greddy} alt='' className='h-48'/>
-            <img src={hks} alt='' className='h-48'/>
-            <img src={ural} alt='' className='h-24'/>
-            </div>
-           <div className=' justify-between'>
-            <img src={db} alt='' className='h-48'/>
-            <img src={machete} alt='' className='h-24'/>
-            <img src={nos} alt='' className='h-48'/>
-           </div>
-            
+          <div className='w-full grid grid-rows-2 grid-flow-col xl:gap-8 gap-2 px-8 place-items-center'>
+            <img src={aceoface} alt='' className='w-full h-auto'/>
+            <img src={allsubaru} alt='' className='w-full h-auto'/>
+            <img src={ChemicalRussia} alt='' className='w-full h-auto'/>
+            <img src={fabfours} alt='' className='w-full h-auto'/>
+            <img src={Metalcloak} alt='' className='w-full h-auto bg-black rounded-lg p-2'/>
+            <img src={rigid} alt='' className='w-full h-auto'/>
+            <img src={sgm} alt='' className='w-full h-auto'/>
+            <img src={statlight} alt='' className='w-full h-auto bg-black rounded-lg p-2'/>
+            <img src={subaru} alt='' className='w-full h-auto'/>
+            <img src={vdashop} alt='' className='w-full h-auto'/>
           </div>
         {/* <Slider {...settings}>
           <div className="w-full ">

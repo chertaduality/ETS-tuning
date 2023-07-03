@@ -14,11 +14,11 @@ const ProjectCard = ({ title, des, src, link }) => {
   return (
     <div>
       {' '}
-
+      <Link to="aboutprojects" className="ml-0 pl-0">
       <div className="w-full xl:h-[500px] h-[300px] overflow-hidden xl:px-6  first-letter:mx-[-20px] xl:py-12 rounded-lg shadow-xl flex flex-col bg-bodyColor group  transition-colors duration-1000 group hover:shadow-2xl">
         {' '}
   
-        <div className="w-full h-[90%] overflow-hidden rounded-lg z-[50]">
+        <div className="w-full xl:h-[90%] h-[70%] overflow-hidden rounded-lg z-[50]">
           {' '}
           <img
             className="w-full h-[500px] object-cover group-hover:scale-110 duration-300"
@@ -32,7 +32,7 @@ const ProjectCard = ({ title, des, src, link }) => {
               <h3 className=" hover:text-designColor font-semibold ">
                 {title}
               </h3>
-              <Link to="aboutprojects" className="ml-0 pl-0">
+              
                 <div
                   onClick={scrollToTop}
                   className="w-full flex  flex-col justify-between items-center"
@@ -44,11 +44,11 @@ const ProjectCard = ({ title, des, src, link }) => {
                     </span>
                   </p>{' '}
                 </div>
-              </Link>
+            
             </div>
           </div>
         </div>
-      </div>
+      </div>  </Link>
     </div>
   );
 };
