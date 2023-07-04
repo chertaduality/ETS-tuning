@@ -10,7 +10,6 @@ import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AM
 import projectGTRr35 from '../../assets/images/projects/Nissan GTR r35/IMG_4616_jpg.JPG';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
 
-
 const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
@@ -39,8 +38,8 @@ const Projects = () => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToShow: 2,
+    slidesToScroll: 2,
 
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,

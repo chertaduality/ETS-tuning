@@ -40,7 +40,7 @@ const Navbar = (_id, title, link) => {
       <div>
         <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
           <li
-            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
             onClick={scrollToTop}
           >
@@ -56,7 +56,7 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
           <li
-            className="font-titleFont whitespace-nowrap text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg whitespace-nowrap text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
           >
             <Link
@@ -71,7 +71,7 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
           <li
-            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
           >
             <Link
@@ -86,7 +86,7 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
           <li
-            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
           >
             <Link
@@ -101,7 +101,7 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
           <li
-            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
           >
             <Link
@@ -116,7 +116,7 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
           <li
-            className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+            className="font-bodyFont font-semibold text-lg  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
             key={_id}
           >
             <Link

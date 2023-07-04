@@ -18,14 +18,16 @@ const AboutProjects = () => {
           <source src={videoSampleProj} type="video/mp4" />
         </video>
       </div>
-      <div className="w-[20%] fixed z-20 h-screen bg-white">
-        <PostsList />
-      </div>
-      <div className="w-[78%] absolute z-20 h-screen pr-12 right-0">
-        <Routes>
-          <Route path="vandal" element={<Vandal className="scroll" />} />
-          <Route path="gclassamg" element={<GclassAMG />} />
-        </Routes>
+      <div className="flex flex-col">
+        <div className="lg:w-[20%] w-[100%] lg:fixed z-20 h-screen bg-white">
+          <PostsList />
+        </div>
+        <div className="lg:w-[78%] w-auto lg:absolute  flex  z-20 h-screen pr-12 right-0">
+          <Routes>
+            <Route path="vandal" element={<Vandal className="scroll" />} />
+            <Route path="gclassamg" element={<GclassAMG />} />
+          </Routes>
+        </div>
       </div>
     </section>
   );

@@ -1,12 +1,13 @@
-import React from "react";
+import React from 'react';
 
-const Paint = () =>{
-    return (
+const Paint = () => {
+  return (
     <div className="mt-24 bg-navbarColor">
-    <div className="w-full flex flex-col justify-center items -center text-center p-8">
-    <h1 className="font-titleFont text-2xl ">PAINT </h1>
+      <div className="w-full flex flex-col justify-center items -center text-center p-8">
+        <h1 className="font-titleFont text-2xl ">PAINT </h1>
+      </div>
     </div>
-</div>)
-}
+  );
+};
 
-export default Paint
+export default Paint;
