@@ -20,7 +20,7 @@ const Banner = () => {
         <source src={videoSample} type="video/mp4" />
       </video>
       <IoIosArrowDropdown
-        className="w-16 h-16 absolute text-designColor bottom-0 left-[48%] opacity-30 hover:opacity-80 hover:scale-105 animate-ping cursor-pointer"
+        className="w-16 h-16 absolute text-gray-500 bottom-0 left-[48%] opacity-30 hover:opacity-80 hover:scale-105 animate-pulse  cursor-pointer"
         onClick={scrollToBottom}
       />
     </section>
