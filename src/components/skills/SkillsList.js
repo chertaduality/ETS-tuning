@@ -35,7 +35,7 @@ const SkillsList = () => {
     <div className="mt-24 ">
       <ul className="flex flex-col gap-8 font-medium overflow-hidden py-16 mx-10 ">
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setPaintIsShown(true)}
           onMouseLeave={() => setPaintIsShown(false)}
         >
@@ -64,7 +64,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span
             className="w-full z-50  text-lg hover:text-designColor duration-300 cursor-pointer relative group"
             onMouseEnter={() => setDetailIsShown(true)}
@@ -94,7 +94,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setCarbonIsShown(true)}
           onMouseLeave={() => setCarbonIsShown(false)}
         >
@@ -123,7 +123,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setBodyIsShown(true)}
           onMouseLeave={() => setBodyIsShown(false)}
         >
@@ -152,7 +152,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setAddIsShown(true)}
           onMouseLeave={() => setAddIsShown(false)}
         >
@@ -181,7 +181,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setTailoringIsShown(true)}
           onMouseLeave={() => setTailoringIsShown(false)}
         >
@@ -210,7 +210,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setClearingIsShown(true)}
           onMouseLeave={() => setClearingIsShown(false)}
         >
@@ -239,7 +239,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setFiberglassIsShown(true)}
           onMouseLeave={() => setFiberglassIsShown(false)}
         >
@@ -268,7 +268,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setModel3dIsShown(true)}
           onMouseLeave={() => setModel3dIsShown(false)}
         >
@@ -297,7 +297,7 @@ const SkillsList = () => {
           )}
         </li>
         <li
-          className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
+          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
           onMouseEnter={() => setServiceIsShown(true)}
           onMouseLeave={() => setServiceIsShown(false)}
         >

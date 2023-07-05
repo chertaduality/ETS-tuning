@@ -13,7 +13,7 @@ const ContactLeft = () => {
         <p className="text-base text-gray-600 tracking-wide text-center lgl:text-start">
           Мы всегда готовы ответить на все интересующие Вас вопросы.
         </p>
-        <p className="text-base font-semibold text-gray-600 flex flex-col lgl:flex-row items-center gap-2">
+        <p className="text-base font-semibold text-gray-600 flex flex-col lgl:flex-row items-center gap-2 ">
           Телефон:{' '}
           <a href="tel:+79955059898" className="text-designColor">
             +7 995 505 98 98

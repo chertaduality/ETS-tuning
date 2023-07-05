@@ -54,7 +54,8 @@ const Contacts = () => {
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-xl">
-            <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
+          <iframe className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4" src="https://yandex.ru/map-widget/v1/?um=constructor%3A63f82ab60128a8ba7001c5cd81f68cfe621b2a17f9ea3c590d3c3512c4d85fb3&amp;source=constructor" width="750" height="550" frameborder="0"></iframe>
+            {/* <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#bb3200] to-[#b0251d] shadow-xl text-center text-white text-base tracking-wide animate-bounce">
                   {errMsg}
@@ -156,7 +157,7 @@ const Contacts = () => {
                   {successMsg}
                 </p>
               )}
-            </form>
+            </form> */}
           </div>
         </div>
       </div>

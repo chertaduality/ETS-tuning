@@ -15,8 +15,8 @@ const Vandal = () => {
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <img className="w-full" src={img1} alt="1" />
         <p className="p-8 text-xl">
-          <h3 className="font-titleFont text-2xl">Vandal</h3> - внедорожник,
-          созданный на базе Jeep Wrangler JK.
+          <h3 className="font-titleFont text-2xl">Vandal - внедорожник,
+          созданный на базе Jeep Wrangler JK.</h3>
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
