@@ -36,7 +36,7 @@ const AboutSkills = () => {
         <div className="lg:w-[20%] w-[100%] lg:fixed z-20 h-screen bg-white">
           <SkillsList />
         </div>
-        <div className="lg:w-[78%] w-auto lg:absolute  flex  z-20 h-screen pr-12 right-0">
+        <div className="lg:w-[80%] w-auto lg:absolute  flex  z-20 h-screen pr-12 right-0">
           <Routes>
             <Route path="paint" element={<Paint className="scroll " />} />
             <Route path="detail" element={<Detail className="scroll" />} />
