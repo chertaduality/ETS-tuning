@@ -4,6 +4,7 @@ import Vandal from './vandal/Vandal';
 import GclassAMG from './gclassamg/GclassAMG';
 import Wranglerjl from './wranglerJL/Wranglerjl';
 import Xklasseextreme from './xklasseextreme/Xklasseextreme'
+import Mbclassicextremeblack from './mbclassicextremeblack/Mbclassicextremeblack'
 import PostsList from './PostsList';
 
 // import videoSampleProj from '../../../assets/video/logo6.mp4';
@@ -32,7 +33,7 @@ const AboutProjects = () => {
             <Route path="gclassamg" element={<GclassAMG className="scroll"/>} />
             <Route path="wranglerjl" element={<Wranglerjl className="scroll" />} />
             <Route path="xklasseextreme" element={<Xklasseextreme className="scroll" />} />
-            <Route path="mbclassicextremeblack" element={<Wranglerjl className="scroll" />} />
+            <Route path="mbclassicextremeblack" element={<Mbclassicextremeblack className="scroll" />} />
             <Route path="mbxclassforester" element={<Wranglerjl className="scroll" />} />
             <Route path="laramie" element={<Wranglerjl className="scroll" />} />
             <Route path="porschepanamera" element={<Wranglerjl className="scroll" />} />
