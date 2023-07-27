@@ -2,8 +2,11 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Vandal from './vandal/Vandal';
 import GclassAMG from './gclassamg/GclassAMG';
+import Wranglerjl from './wranglerJL/Wranglerjl';
+import Xklasseextreme from './xklasseextreme/Xklasseextreme'
 import PostsList from './PostsList';
-import videoSampleProj from '../../../assets/video/logo6.mp4';
+
+// import videoSampleProj from '../../../assets/video/logo6.mp4';
 
 const AboutProjects = () => {
   return (
@@ -25,7 +28,14 @@ const AboutProjects = () => {
         <div className="lg:w-[78%] w-auto lg:absolute  flex  z-20 h-screen pr-12 right-0">
           <Routes>
             <Route path="vandal" element={<Vandal className="scroll" />} />
-            <Route path="gclassamg" element={<GclassAMG />} />
+            
+            <Route path="gclassamg" element={<GclassAMG className="scroll"/>} />
+            <Route path="wranglerjl" element={<Wranglerjl className="scroll" />} />
+            <Route path="xklasseextreme" element={<Xklasseextreme className="scroll" />} />
+            <Route path="mbclassicextremeblack" element={<Wranglerjl className="scroll" />} />
+            <Route path="mbxclassforester" element={<Wranglerjl className="scroll" />} />
+            <Route path="laramie" element={<Wranglerjl className="scroll" />} />
+            <Route path="porschepanamera" element={<Wranglerjl className="scroll" />} />
           </Routes>
         </div>
       </div>
