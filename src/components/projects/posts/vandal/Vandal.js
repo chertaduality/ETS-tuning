@@ -40,8 +40,12 @@ const Vandal = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
-          <img className="w-full " src={img3} alt="3" />
-          <img className=" w-full " src={img4} alt="4" />
+          <div className="max-h-[500px] overflow-hidden">
+            <img className="w-full " src={img3} alt="3" />
+          </div>
+          <div className="max-h-[500px] overflow-hidden">
+            <img className=" w-full " src={img4} alt="4" />
+          </div>
         </div>
 
         <p className="p-8 text-xl">
@@ -76,8 +80,13 @@ const Vandal = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">
-          <img className="w-full" src={img6} alt="6" />
-          <img className="w-full" src={img7} alt="7" />
+          <div className="max-h-[500px] overflow-hidden">
+            <img className="w-full" src={img6} alt="6" />
+          </div>
+
+          <div className="max-h-[500px] overflow-hidden">
+            <img className="w-full" src={img7} alt="7" />
+          </div>
         </div>
         <p className="p-8 text-xl">
           В салоне обеспечен высокий уровень комфорта автомобиля бизнес-класса.

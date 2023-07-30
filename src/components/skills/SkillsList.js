@@ -32,13 +32,9 @@ const SkillsList = () => {
   };
 
   return (
-    <div className="mt-24 ">
+    <div className="mt-36 ">
       <ul className="flex flex-col gap-8 font-medium overflow-hidden py-16 mx-10 ">
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setPaintIsShown(true)}
-          onMouseLeave={() => setPaintIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full  z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -49,6 +45,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setPaintIsShown(true)}
+              onMouseLeave={() => setPaintIsShown(false)}
             >
               Малярный цех
             </Link>
@@ -65,11 +63,7 @@ const SkillsList = () => {
           )}
         </li>
         <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
-          <span
-            className="w-full z-50  text-lg hover:text-designColor duration-300 cursor-pointer relative group"
-            onMouseEnter={() => setDetailIsShown(true)}
-            onMouseLeave={() => setDetailIsShown(false)}
-          >
+          <span className="w-full z-50  text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
               to="detail"
@@ -78,6 +72,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setDetailIsShown(true)}
+              onMouseLeave={() => setDetailIsShown(false)}
             >
               Цех чистоты и блеска
             </Link>
@@ -93,11 +89,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setCarbonIsShown(true)}
-          onMouseLeave={() => setCarbonIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50  text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -107,6 +99,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setCarbonIsShown(true)}
+              onMouseLeave={() => setCarbonIsShown(false)}
             >
               Carbon цех
             </Link>
@@ -122,11 +116,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setBodyIsShown(true)}
-          onMouseLeave={() => setBodyIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -136,6 +126,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setBodyIsShown(true)}
+              onMouseLeave={() => setBodyIsShown(false)}
             >
               Кузовной цех
             </Link>
@@ -151,11 +143,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setAddIsShown(true)}
-          onMouseLeave={() => setAddIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -165,6 +153,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setAddIsShown(true)}
+              onMouseLeave={() => setAddIsShown(false)}
             >
               Цех дополнительных систем
             </Link>
@@ -180,11 +170,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setTailoringIsShown(true)}
-          onMouseLeave={() => setTailoringIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -194,6 +180,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setTailoringIsShown(true)}
+              onMouseLeave={() => setTailoringIsShown(false)}
             >
               Швейный цех
             </Link>
@@ -209,11 +197,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setClearingIsShown(true)}
-          onMouseLeave={() => setClearingIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -223,6 +207,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setClearingIsShown(true)}
+              onMouseLeave={() => setClearingIsShown(false)}
             >
               Цех обработки и очистки деталей
             </Link>
@@ -238,11 +224,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setFiberglassIsShown(true)}
-          onMouseLeave={() => setFiberglassIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -252,6 +234,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setFiberglassIsShown(true)}
+              onMouseLeave={() => setFiberglassIsShown(false)}
             >
               Цех стеклопластика
             </Link>
@@ -267,11 +251,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setModel3dIsShown(true)}
-          onMouseLeave={() => setModel3dIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -281,6 +261,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setModel3dIsShown(true)}
+              onMouseLeave={() => setModel3dIsShown(false)}
             >
               3D моделирование и изготовление деталей
             </Link>
@@ -296,11 +278,7 @@ const SkillsList = () => {
             </div>
           )}
         </li>
-        <li
-          className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-          onMouseEnter={() => setServiceIsShown(true)}
-          onMouseLeave={() => setServiceIsShown(false)}
-        >
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
           <span className="w-full z-50 text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
@@ -310,6 +288,8 @@ const SkillsList = () => {
               offset={-70}
               duration={1000}
               onClick={scrollToBottom}
+              onMouseEnter={() => setServiceIsShown(true)}
+              onMouseLeave={() => setServiceIsShown(false)}
             >
               Цех обслуживания и ремонта автомобилей
             </Link>

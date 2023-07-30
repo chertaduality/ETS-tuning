@@ -36,14 +36,15 @@ const Wranglerjl = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="flex flex-row justify-between">
-          <img className="w-full" src={img2} alt="2" />
+        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="flex flex-row justify-between">
+            <img className="w-full" src={img2} alt="2" />
+          </div>
+          <p className="p-8 text-xl">
+            Установлен комплект подвески Metacloak с целью увеличения дорожного
+            просвета и установки колес 37 дюймов. Амортизаторы teraflex falcon.
+          </p>{' '}
         </div>
-
-        <p className="p-8 text-xl">
-          Установлен комплект подвески Metacloak с целью увеличения дорожного
-          просвета и установки колес 37 дюймов. Амортизаторы teraflex falcon.
-        </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="grid grid-cols-2 gap-4 justify-center items-center">

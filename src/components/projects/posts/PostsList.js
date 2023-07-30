@@ -98,7 +98,7 @@ const PostsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="mbxclassforester"
+              to="forester"
               spy={true}
               smooth={true}
               offset={-70}
@@ -130,7 +130,7 @@ const PostsList = () => {
           <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
             <Link
               activeClass="active"
-              to="porschepanamera"
+              to="panamera"
               spy={true}
               smooth={true}
               offset={-70}

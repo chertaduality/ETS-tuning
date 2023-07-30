@@ -34,7 +34,7 @@ const Mbclassicextremeblack = () => {
               <li>Крышка кузова с электрическими приводами</li>
             </ul>
           </p>
-          <img className="max-h-[600px]" src={img2} alt="2" />
+          <img src={img2} alt="2" />
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
@@ -60,8 +60,13 @@ const Mbclassicextremeblack = () => {
             </li>
             Также инсталляция в бампер модульных ПТФ от компании RIGID.
           </p>
-          <img className="w-full " src={img4} alt="4" />
-          <img className="w-full" src={img5} alt="5" />
+          <div className="max-h-[500px] overflow-hidden">
+            {' '}
+            <img className="w-full " src={img4} alt="4" />
+          </div>
+          <div className="max-h-[500px] overflow-hidden">
+            <img className="w-full" src={img5} alt="5" />
+          </div>
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
