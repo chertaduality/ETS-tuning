@@ -5,16 +5,16 @@ import partner1 from '../../assets/partners/PremiumCaste-cvet.webp';
 import partner2 from '../../assets/partners/592462.webp';
 import partner3 from '../../assets/partners/Sti-Logo.png';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
-import aceoface from '../../assets/images/partners/aceoface.jpg'
-import allsubaru from '../../assets/images/partners/allsubaru.png'
-import ChemicalRussia from '../../assets/images/partners/ChemicalRussia.png'
-import fabfours from '../../assets/images/partners/fabfours.svg'
-import Metalcloak from '../../assets/images/partners/Metalcloak.png'
-import rigid from '../../assets/images/partners/rigid.png'
-import sgm from '../../assets/images/partners/sgm.png'
-import statlight from '../../assets/images/partners/statlight.png'
-import subaru from '../../assets/images/partners/subaru.jpg'
-import vdashop from '../../assets/images/partners/vdashop.jpg'
+import aceoface from '../../assets/images/partners/aceoface.jpg';
+import allsubaru from '../../assets/images/partners/allsubaru.png';
+import ChemicalRussia from '../../assets/images/partners/ChemicalRussia.png';
+import fabfours from '../../assets/images/partners/fabfours.svg';
+import Metalcloak from '../../assets/images/partners/Metalcloak.png';
+import rigid from '../../assets/images/partners/rigid.png';
+import sgm from '../../assets/images/partners/sgm.png';
+import statlight from '../../assets/images/partners/statlight.png';
+import subaru from '../../assets/images/partners/subaru.jpg';
+import vdashop from '../../assets/images/partners/vdashop.jpg';
 
 const SampleNextArrow = (props) => {
   const { onClick } = props;
@@ -98,21 +98,30 @@ const Partners = () => {
   return (
     <section id="partners" className="w-full  border-b-black ">
       <div className="flex justify-center items-center text-center">
-        <Title title="Наши партнеры" des="Кто нам помогает?" />
+        {/* <Title title="Наши партнеры" des="Кто нам помогает?" /> */}
+        <Title title="Наши партнеры" />
       </div>
       <div className="max-w-6xl mx-auto h-auto">
-          <div className='w-full grid grid-rows-2 grid-flow-col xl:gap-8 gap-2 px-8 place-items-center'>
-            <img src={aceoface} alt='' className='w-full h-auto'/>
-            <img src={allsubaru} alt='' className='w-full h-auto'/>
-            <img src={ChemicalRussia} alt='' className='w-full h-auto'/>
-            <img src={fabfours} alt='' className='w-full h-auto'/>
-            <img src={Metalcloak} alt='' className='w-full h-auto bg-black rounded-lg p-2'/>
-            <img src={rigid} alt='' className='w-full h-auto'/>
-            <img src={sgm} alt='' className='w-full h-auto'/>
-            <img src={statlight} alt='' className='w-full h-auto bg-black rounded-lg p-2'/>
-            <img src={subaru} alt='' className='w-full h-auto'/>
-            <img src={vdashop} alt='' className='w-full h-auto'/>
-          </div>
+        <div className="w-full grid grid-rows-2 grid-flow-col xl:gap-8 gap-2 px-8 place-items-center">
+          <img src={aceoface} alt="" className="w-full h-auto" />
+          <img src={allsubaru} alt="" className="w-full h-auto" />
+          <img src={ChemicalRussia} alt="" className="w-full h-auto" />
+          <img src={fabfours} alt="" className="w-full h-auto" />
+          <img
+            src={Metalcloak}
+            alt=""
+            className="w-full h-auto bg-black rounded-lg p-2"
+          />
+          <img src={rigid} alt="" className="w-full h-auto" />
+          <img src={sgm} alt="" className="w-full h-auto" />
+          <img
+            src={statlight}
+            alt=""
+            className="w-full h-auto bg-black rounded-lg p-2"
+          />
+          <img src={subaru} alt="" className="w-full h-auto" />
+          <img src={vdashop} alt="" className="w-full h-auto" />
+        </div>
         {/* <Slider {...settings}>
           <div className="w-full ">
             <div className="w-full h-auto flex flex-col lgl:flex-row justify-between ">

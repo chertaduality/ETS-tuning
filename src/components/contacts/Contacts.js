@@ -48,13 +48,20 @@ const Contacts = () => {
   return (
     <section id="contacts" className="w-full py-20 border-b-black px-10">
       <div className="flex justify-center items-center text-center">
-        <Title title="Наши контакты" des="Как с нами связаться?" />
+        {/* <Title title="Наши контакты" des="Как с нами связаться?" /> */}
+        <Title title="Наши контакты" />
       </div>
       <div className="w-full ">
         <div className="w-full h-auto flex flex-col lgl:flex-row justify-between">
           <ContactLeft />
           <div className="w-full lgl:w-[60%] h-full py-10 flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-xl">
-          <iframe className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4" src="https://yandex.ru/map-widget/v1/?um=constructor%3A63f82ab60128a8ba7001c5cd81f68cfe621b2a17f9ea3c590d3c3512c4d85fb3&amp;source=constructor" width="750" height="550" frameborder="0"></iframe>
+            <iframe
+              className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4"
+              src="https://yandex.ru/map-widget/v1/?um=constructor%3A63f82ab60128a8ba7001c5cd81f68cfe621b2a17f9ea3c590d3c3512c4d85fb3&amp;source=constructor"
+              width="750"
+              height="550"
+              frameborder="0"
+            ></iframe>
             {/* <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#bb3200] to-[#b0251d] shadow-xl text-center text-white text-base tracking-wide animate-bounce">

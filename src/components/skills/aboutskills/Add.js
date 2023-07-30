@@ -1,7 +1,7 @@
 import React from 'react';
-// import img1 from './images/tailoring/1.jpg';
-// import img2 from './images/tailoring/2.jpg';
-// import img3 from './images/tailoring/3.jpg';
+import img1 from './images/add/1.jpeg';
+import img2 from './images/add/2.jpeg';
+import img3 from './images/add/3.jpeg';
 // import img4 from './images/tailoring/4.jpg';
 // import img5 from './images/tailoring/5.jpg';
 // import img6 from './images/tailoring/6.jpg';
@@ -14,7 +14,7 @@ const Add = () => {
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
         <div className="grid grid-cols-2 gap-4  justify-center items-center">
-          {/* <img src={img1} alt="1" /> */}
+          <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             Наши специалисты устанавливают широкий спектр дополнительного
             оборудования для повышения уровня комфорта и безопасности
@@ -22,15 +22,15 @@ const Add = () => {
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4  justify-center items-center">
-          <p className="p-8 text-xl">
+          {/* <p className="p-8 text-xl">
             <h3>Сигнализация</h3> Готовы установить сигнализацию любого типа - с
             двухсторонней связью, с автозапуском двигателя, диалоговые модели,
             исключающие интеллектуальный взлом, телематические (для управления
             сигнализацией при помощи мобильного приложения), Gsm Gps
             сигнализации (для контроля машины на любом расстоянии через сотовую
             связь).
-          </p>
-          {/* <img src={img2} alt="2" /> */}
+          </p> */}
+
           <p className="p-8 text-xl">
             <h3>ГУ (головное управление)</h3> Установим современное головное
             устройство с более широким мультимедийным функционалом и
@@ -45,6 +45,8 @@ const Add = () => {
             видеорегистратор, камеру заднего вида, Android систему на монитор и
             т.д.
           </p>
+          <img src={img2} alt="2" />
+          <img src={img3} alt="3" />
           <p className="p-8 text-xl">
             <h3>Парковочные датчики</h3> Устанавливаем передние и задние
             датчики, которые полезны при маневрировании и парковке в
@@ -52,10 +54,7 @@ const Add = () => {
             кругового обзора, что позволяет правильно оценить обстановку на
             дороге с интенсивным движением.
           </p>
-          {/* <img src={img3} alt="3" /> */}
-          <p className="p-8 text-xl">
-            <h3>И многое многое другое - звоните!</h3>
-          </p>
+
           {/* <img src={img4} alt="4" /> */}
         </div>
       </div>

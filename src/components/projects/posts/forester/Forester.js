@@ -1,7 +1,7 @@
 import React from 'react';
-// import img1 from './img/1.jpg';
-// import img2 from './img/2.jpg';
-// import img3 from './img/3.jpg';
+import img1 from './img/1.jpg';
+import img2 from './img/2.jpg';
+import img3 from './img/3.jpg';
 // import img4 from './img/4.jpg';
 // import img5 from './img/5.jpg';
 // import img6 from './img/6.jpg';
@@ -14,7 +14,7 @@ const Forester = () => {
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
-          {/* <img className="w-full" src={img0} alt="0" /> */}
+          <img className="w-full" src={img1} alt="1" />
           <h3 className="font-titleFont text-2xl">
             {' '}
             Mercedes-Benz X-class "Forester"
@@ -33,7 +33,7 @@ const Forester = () => {
             Проект полностью был смоделирован и разработан при помощи 3D
             инженерии и профессионального опыта сотрудников.
           </p>
-          {/* <img src={img1} alt="1" /> */}
+          <img src={img2} alt="2" />
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
@@ -55,7 +55,7 @@ const Forester = () => {
             Изготовлен CUSTOM комплект силовых бамперов со скрытой установкой
             лебедки, противотуманных фар и света заднего хода от компании RIGID
           </p>
-          {/* <img className="w-full" src={img3} alt="3" /> */}
+          <img className="w-full" src={img3} alt="3" />
           <p className="p-8 text-xl">
             Комплект силовых порогов с антискользящим покрытием и перфорацией,
             под расчетную нагрузку бокового удара и веса более 300 кг

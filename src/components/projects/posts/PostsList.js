@@ -142,6 +142,22 @@ const PostsList = () => {
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
         </li>
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
+          <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
+            <Link
+              activeClass="active"
+              to="sera"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              onClick={scrollToBottom}
+            >
+              Toyota Sera
+            </Link>
+            <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+          </span>
+        </li>
       </ul>
     </div>
   );

@@ -14,7 +14,7 @@ const SampleNextArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-0 lgl:right-[45%] xs:right-0 xs:top-0 md:right-[40%]"
+      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-0 lgl:right-[47%] xs:right-0 xs:top-0 md:right-[40%]"
       onClick={onClick}
     >
       <BiRightArrow />
@@ -25,7 +25,7 @@ const SamplePrevArrow = (props) => {
   const { onClick } = props;
   return (
     <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-0 lgl:right-[51%] md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
+      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-0 lgl:left-[47%] md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
       onClick={onClick}
     >
       <BiLeftArrow />
@@ -94,14 +94,15 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="w-full  py-20 mb-20 pt-40 border-b-black xs:py-5"
+      className="xxl:w-screen w-full xxl:ml-[-48%] py-20 mb-20 pt-40 border-b-black xs:py-5"
     >
       {/* <section
       id="projects"
       className="w-full pb-20 items-center py-20 mb-20 border-b-black xs:py-5"
     > */}
       <div className="flex font-titleFont justify-center items-center text-center">
-        <Title title="Наши проекты" des="Что мы уже сделали?" />
+        {/* <Title title="Наши проекты" des="Что мы уже сделали?" /> */}
+        <Title title="Наши проекты" />
       </div>
       <div className="w-full ">
         <Slider className="w-full " {...settings}>

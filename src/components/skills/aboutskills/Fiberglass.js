@@ -1,12 +1,8 @@
 import React from 'react';
-// import img1 from './images/fiberglass/1.jpg';
-// import img2 from './images/fiberglass/2.jpg';
-// import img3 from './images/fiberglass/3.jpg';
-// import img4 from './images/fiberglass/4.jpg';
-// import img5 from './images/fiberglass/5.jpg';
-// import img6 from './images/fiberglass/6.jpg';
-// import img7 from './images/fiberglass/7.jpg';
-// import img8 from './images/fiberglass/8.jpg';
+import img1 from './images/fiberglass/1.jpeg';
+import img2 from './images/fiberglass/2.jpg';
+import img3 from './images/fiberglass/3.jpg';
+import img4 from './images/fiberglass/4.jpg';
 
 const Fiberglass = () => {
   return (
@@ -14,7 +10,7 @@ const Fiberglass = () => {
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
         <div className="grid grid-cols-2 gap-4  justify-center items-center">
-          {/* <img src={img1} alt="1" /> */}
+          <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             Изготовление обвеса кузова из стеклопластика ввиду относительно
             простой технологии является наиболее распространенным при тюнинге
@@ -36,7 +32,8 @@ const Fiberglass = () => {
             рассыпаться, раскрошиться. Стекловолокно придает ей изящный вид и
             различные гибкие свойства.
           </p>
-          {/* <img src={img2} alt="2" /> */}
+          <img src={img2} alt="2" />
+          <img src={img4} alt="4" />
           <p className="p-8 text-xl">
             Концентрация используемого катализатора крайне важна. Так, если
             этого необходимого ингредиента недостаточно, то придется
@@ -45,6 +42,7 @@ const Fiberglass = () => {
             конца, так как с затвердевшей смолой вряд ли можно произвести
             какие-либо комбинации.
           </p>
+
           <p className="p-8 text-xl">
             Но смолой все не ограничивается. Разные вариации также существуют и
             у стекловолокна. Как правило, на практике используют два типа
@@ -52,9 +50,8 @@ const Fiberglass = () => {
             легкостью в применении, а поэтому изготовить из него обвес кузова на
             автомобиль не составит труда.
           </p>
-          {/* <img src={img3} alt="3" /> */}
+          <img src={img3} alt="3" />
           <p className="p-8 text-xl"></p>
-          {/* <img src={img4} alt="4" /> */}
         </div>
       </div>
     </div>

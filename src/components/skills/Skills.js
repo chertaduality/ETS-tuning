@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Title from '../layouts/Title';
 import Card from './Card';
@@ -13,7 +13,6 @@ import {
 import { HiCubeTransparent } from 'react-icons/hi';
 
 const Skills = () => {
- 
   return (
     <motion.section
       initial="hidden"
@@ -22,7 +21,8 @@ const Skills = () => {
       className="w-full py-20 border-b-black "
     >
       <div className="flex justify-center items-center text-center">
-        <Title title="Услуги" des="Что мы умеем?" />
+        {/* <Title title="Услуги" des="Что мы умеем?" /> */}
+        <Title title="Услуги" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-20">
         <Card

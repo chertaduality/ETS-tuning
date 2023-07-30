@@ -9,6 +9,7 @@ import PostsList from './PostsList';
 import Forester from './forester/Forester';
 import Laramie from './laramie/Laramie';
 import Panamera from './panamera/Panamera';
+import Sera from './sera/Sera';
 
 // import videoSampleProj from '../../../assets/video/logo6.mp4';
 
@@ -52,6 +53,7 @@ const AboutProjects = () => {
             <Route path="forester" element={<Forester className="scroll" />} />
             <Route path="laramie" element={<Laramie className="scroll" />} />
             <Route path="panamera" element={<Panamera className="scroll" />} />
+            <Route path="sera" element={<Sera className="scroll" />} />
           </Routes>
         </div>
       </div>
