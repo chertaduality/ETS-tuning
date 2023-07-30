@@ -94,7 +94,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="xxl:w-screen w-full xxl:ml-[-48%] py-20 mb-20 pt-40 border-b-black xs:py-5"
+      className="xxl:w-[195%] w-full xxl:ml-[-48%] py-20 mb-20 pt-40 border-b-black xs:py-5"
     >
       {/* <section
       id="projects"
