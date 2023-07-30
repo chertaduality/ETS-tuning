@@ -3,11 +3,11 @@ import Slider from 'react-slick';
 import Title from './../layouts/Title';
 import ProjectCard from './ProjectCard';
 import projectVandal from '../../assets/images/projects/Jeep Wrangler JK (Vandal)/IMG_8004.jpg';
-import projectChicano from '../../assets/images/projects/Honda Civic (Chicano)/2022-04-17 19-20-31 (61).jpeg';
+import xklasseextreme from '../../components/projects/posts/xklasseextreme/img/1.jpg';
 import projectRam from '../../assets/images/projects/Dodge RAM/IMG_7509.jpg';
-import projectLexus500 from '../../assets/images/projects/Lexus LC 500/DSC_0986.jpg';
+import panamera from '../../components/projects/posts/panamera/img/0.jpg';
 import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AMG/Mer_01_.jpg';
-import projectGTRr35 from '../../assets/images/projects/Nissan GTR r35/IMG_4616_jpg.JPG';
+import extremeBlack from '../../components/projects/posts/mbclassicextremeblack/img/1.jpg';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
 
 const SampleNextArrow = (props) => {
@@ -125,9 +125,9 @@ const Projects = () => {
 
           <div className="p-4 mb-12">
             <ProjectCard
-              title="Honda Civic (Chicano)"
-              src={projectChicano}
-              des=" ⁃ Установка пневмодвески "
+              title="X-Klasse Extreme"
+              src={xklasseextreme}
+              des=" "
             />
           </div>
           <div className="p-4">
@@ -142,8 +142,8 @@ const Projects = () => {
           </div>
           <div className="p-4">
             <ProjectCard
-              title="Lexus LC 500"
-              src={projectLexus500}
+              title="Porsche Panamera"
+              src={panamera}
               des=" • Полное удаление старого керамического покрытия 
           • 3х этапная полировка кузова  с разбором всех логотипов 
           • Обработка кузова керамическим составом "
@@ -174,8 +174,8 @@ const Projects = () => {
           </div>
           <div className="p-4">
             <ProjectCard
-              title="Nissan GTR r35"
-              src={projectGTRr35}
+              title="Mercedes-Benz classic extreme black"
+              src={extremeBlack}
               des=" • Ремонт губы 
           • Окрас задней стойки 
           • Мойка автомобиля "
