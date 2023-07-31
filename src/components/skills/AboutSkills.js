@@ -33,7 +33,7 @@ const AboutSkills = () => {
         </video> */}
       </div>
       <div className="flex flex-col">
-        <div className="lg:w-[22%] w-[100%] lg:fixed z-20 h-screen bg-white">
+        <div className="lg:w-[22%] w-[100%] lg:fixed z-20  bg-white">
           <SkillsList />
         </div>
         <div className="lg:w-[80%] w-auto lg:absolute  flex  z-60   right-0">
