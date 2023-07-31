@@ -160,7 +160,7 @@ const PostsList = () => {
           </span>
         </li>
         <IoIosArrowDropdown
-          className="w-16 h-16 absolute text-gray-500 top-[700px]
+          className="w-16 h-16 absolute text-gray-500 top-[600px]
           left-[42%] opacity-30 hover:opacity-80 hover:scale-105 md:hidden block animate-pulse  cursor-pointer"
           onClick={scrollToBottom}
         />
