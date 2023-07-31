@@ -13,7 +13,7 @@ const Vandal = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img1} alt="1" />
           <p className="p-8 text-xl">
             <h3 className="font-titleFont text-2xl">
@@ -23,7 +23,7 @@ const Vandal = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             <ul>
               Установлены:
@@ -39,7 +39,7 @@ const Vandal = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <div className="max-h-[500px] overflow-hidden">
             <img className="w-full " src={img3} alt="3" />
           </div>
@@ -69,7 +69,7 @@ const Vandal = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           {' '}
           <img src={img5} alt="5" />
           <p className="p-8 text-xl">
@@ -79,7 +79,7 @@ const Vandal = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <div className="max-h-[500px] overflow-hidden">
             <img className="w-full" src={img6} alt="6" />
           </div>
@@ -96,7 +96,7 @@ const Vandal = () => {
           вставки на дверных ручках и эксклюзивные стоп-сигналы дополняют его
           агрессивный стиль.
         </p>
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img8} alt="8" />
           <img className="w-full" src={img9} alt="9" />
         </div>

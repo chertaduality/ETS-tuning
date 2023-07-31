@@ -13,7 +13,7 @@ const Mbclassicextremeblack = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img1} alt="1" />
           <p className="p-8 text-xl">
             <h3 className="font-titleFont text-2xl">EXTERIOR</h3>
@@ -21,7 +21,7 @@ const Mbclassicextremeblack = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             <ul>
               <li>3D сканирование и макетирование</li>
@@ -41,7 +41,7 @@ const Mbclassicextremeblack = () => {
         <p className="p-8 text-xl">
           <h3 className="font-titleFont text-2xl">FACELIFT</h3>
         </p>
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full " src={img3} alt="3" />
           <p className="p-8 text-xl">
             <li>Доработка переднего бампера</li>
@@ -70,7 +70,7 @@ const Mbclassicextremeblack = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           {/* <img src={img5} alt="5" /> */}
           <h3 className="font-titleFont text-2xl">
             ДОПОЛНИТЕЛЬНЫЕ БЛОКИ И ОБОРУДОВАНИЕ
@@ -95,7 +95,7 @@ const Mbclassicextremeblack = () => {
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         {' '}
         <h3 className="font-titleFont text-2xl">INTERIOR </h3>
-        <div className="grid grid-cols-2 gap-4 justify-center items-center mt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center mt-8">
           <img className="w-full" src={img6} alt="6" />
           <img className="w-full" src={img7} alt="7" />
 

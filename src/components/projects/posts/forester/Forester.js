@@ -13,7 +13,7 @@ const Forester = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 mt-16 justify-center items-center">
           <img className="w-full" src={img1} alt="1" />
           <h3 className="font-titleFont text-2xl">
             {' '}
@@ -28,7 +28,7 @@ const Forester = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4  justify-center items-center">
           <p className="p-8 text-xl">
             Проект полностью был смоделирован и разработан при помощи 3D
             инженерии и профессионального опыта сотрудников.
@@ -50,7 +50,7 @@ const Forester = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Изготовлен CUSTOM комплект силовых бамперов со скрытой установкой
             лебедки, противотуманных фар и света заднего хода от компании RIGID
@@ -63,7 +63,7 @@ const Forester = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 justify-center items-center">
           {/* <img className="w-full" src={img4} alt="4" /> */}
           {/* <img className="w-full" src={img5} alt="5" /> */}
         </div>
@@ -80,7 +80,7 @@ const Forester = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 lg:gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             <ul>
               <li>

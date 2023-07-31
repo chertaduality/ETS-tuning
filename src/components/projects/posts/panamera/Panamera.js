@@ -13,13 +13,13 @@ const Panamera = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 justify-center items-center">
           <img className="w-full" src={img0} alt="0" />
           <h3 className="font-titleFont text-2xl"> Porsche Panamera</h3>{' '}
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <p className="p-8 text-xl">
             Porsche Panamera - является одним из изящных седанов в своем классе.
             Однако по индивидуальному проекту клиента, мы внесли более
@@ -30,7 +30,7 @@ const Panamera = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="flex flex-row justify-between">
-          <div className="grid grid-cols-2 gap-4  justify-center items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
             <img className="w-full" src={img2} alt="2" />
 
             <p className="p-8 text-xl">
@@ -42,7 +42,7 @@ const Panamera = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <ul>
             <li>CUSTOM накладки порогов;</li>
             <li>CUSTOM задний бампер;</li>
@@ -51,7 +51,7 @@ const Panamera = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img4} alt="4" />
           <img className="w-full" src={img5} alt="5" />{' '}
         </div>

@@ -14,9 +14,9 @@ const Main = () => {
       <div className="w-full h-auto bg-bodyColor text-lightText">
         <Banner />
         <div className="max-w-screen-xl mx-auto">
-          <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-            <About />
-          </AnimationOnScroll>
+          {/* <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}> */}
+          <About />
+          {/* </AnimationOnScroll> */}
           <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
             <Skills />
           </AnimationOnScroll>

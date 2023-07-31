@@ -13,7 +13,7 @@ const Xklasseextreme = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img1} alt="1" />
           <p className="p-8 text-xl">
             <h3 className="font-titleFont text-2xl">
@@ -24,7 +24,7 @@ const Xklasseextreme = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Такие детали как: капот, крылья, расширители кузова, накладки
             порогов, передний и задний бампер были изготовлены из композитных
@@ -36,7 +36,7 @@ const Xklasseextreme = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img5} alt="5" />
 
           <p className="p-8 text-xl">
@@ -46,7 +46,7 @@ const Xklasseextreme = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             С использованием ЧПУ станков и промышленного 3D принтера были
             изготовлены многие детали интерьера и экстерьера.
@@ -56,7 +56,7 @@ const Xklasseextreme = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Установлены кастомные светодиодные фонари, накладка двери кузова,
             задний бампер с инсталляцией насадок выхлопной системы. Выхлопная
@@ -75,7 +75,7 @@ const Xklasseextreme = () => {
           Согласно эскизу и техническому заданию, салон был перешит эксклюзивным
           узором с использованием элементов из натуральной кожи.
         </p>
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           {/* <img className="w-full" src={img8} alt="8" /> */}
           {/* <img className="w-full" src={img9} alt="9" /> */}
         </div>

@@ -13,7 +13,7 @@ const Laramie = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 justify-center items-center">
           <img className="w-full" src={img0} alt="0" />
           <h3 className="font-titleFont text-2xl">
             {' '}
@@ -22,7 +22,7 @@ const Laramie = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <p className="p-8 text-xl">
             Индивидуальный окрас в камуфляж (снежный) в стиле kryptek белого
             цвета под матовый лак.
@@ -37,7 +37,7 @@ const Laramie = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="flex flex-row justify-between">
-          <div className="grid grid-cols-2 gap-4  justify-center items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
             <img className="w-full" src={img2} alt="2" />
 
             <p className="p-8 text-xl">
@@ -49,14 +49,14 @@ const Laramie = () => {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-2 gap-4  justify-center items-center">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
         <img className="w-full" src={img3} alt="3" />
         <img className="w-full" src={img6} alt="6" />
         <img className="w-full" src={img7} alt="7" />
         <img className="w-full" src={img8} alt="8" />
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Передняя оптика Alfa Rex. Антихром передней решетки.
           </p>

@@ -13,7 +13,7 @@ const Wranglerjl = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 justify-center items-center">
           <img className="w-full" src={img0} alt="0" />
 
           <ul className="p-8 text-xl">
@@ -26,7 +26,7 @@ const Wranglerjl = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <p className="p-8 text-xl">
             С целью усовершенствовать проходимость без потери комфорта
             эксплуатации в городе с улучшением качества материалов интерьера
@@ -36,7 +36,7 @@ const Wranglerjl = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <div className="flex flex-row justify-between">
             <img className="w-full" src={img2} alt="2" />
           </div>
@@ -47,7 +47,7 @@ const Wranglerjl = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Изменены передаточные числа переднего и заднего моста DANA 44 путем
             замены пары на 4.88;рулевой демпфер teraflex falcon; Установлен
@@ -59,7 +59,7 @@ const Wranglerjl = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img4} alt="4" />
           <img className="w-full" src={img5} alt="5" />
         </div>
@@ -77,7 +77,7 @@ const Wranglerjl = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Применение потолочных карт из ALCANTARA; Сместили задний ряд на 10см
             с целью увеличения объема пространства салона; Перешив сидений и

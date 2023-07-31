@@ -12,7 +12,7 @@ const GclassAMG = () => {
   return (
     <div className="bg-navbarColor">
       <div className="w-full flex flex-col justify-center items-center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img0} alt="0" />
           <p className="p-8 text-xl">
             Эксклюзивный проект для города и бездорожья построен по образу и
@@ -24,7 +24,7 @@ const GclassAMG = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Установлена световая балка RIGID и задние дополнительные сигналы.
             Фары под заказ, изготовлены в США. Диодные дневные ходовые огни.
@@ -34,7 +34,7 @@ const GclassAMG = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="flex flex-row justify-between">
-          <div className="grid grid-cols-2 gap-4 justify-center items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
             <img className="w-full" src={img2} alt="2" />
             <p className="p-8 text-xl">
               Установлена пневмоподкачка шин с управлением из салона или со
@@ -45,7 +45,7 @@ const GclassAMG = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Кастомные усиленные пружины с лифтом под массу авто. Амортизаторы
             Fox с выносным бачком. Тюнинг тормозной системы.
@@ -54,7 +54,7 @@ const GclassAMG = () => {
         </div>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img4} alt="4" />
           <p className="p-8 text-xl">
             Для комфортного доступа в салон установлены выдвижные пороги.
@@ -73,11 +73,11 @@ const GclassAMG = () => {
         </p>
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <img className="w-full" src={img5} alt="5" />
           <img className="w-full" src={img6} alt="6" />
         </div>
-        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
           <p className="p-8 text-xl">
             Перешив салона в кожу Nappa с элементами Alcantara, деревянные
             вставки, замена ковра на более качественный от компании MAH.
