@@ -9,7 +9,7 @@ const Paint = () => {
     <div className="mt-36 bg-white">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             В малярном цеху нашего ателье мы оказываем широчайший спектр услуг,
@@ -17,7 +17,7 @@ const Paint = () => {
             или созданием уникальных дизайнерских решений.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <p className="p-8 text-xl">
             Если Вы решите заказать у нас окрас автомобиля, то можете быть
             полностью уверены в том, что наши мастера проведут аккуратнейшим
@@ -27,7 +27,7 @@ const Paint = () => {
           </p>{' '}
           <img src={img2} alt="2" />
         </div>
-        <div className="grid grid-cols-2 gap-4  justify-center items-center mt-4">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center mt-4">
           <img src={img3} alt="3" />
           <img src={img4} alt="4" />
         </div>

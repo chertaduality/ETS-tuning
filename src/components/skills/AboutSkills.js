@@ -20,7 +20,7 @@ import logo from '../../assets/images/ETS_logo_black.png';
 
 const AboutSkills = () => {
   return (
-    <section className="w-screen ">
+    <section className="w-screen h-auto">
       <div className="w-full">
         <img className="absolute pt-[20%] pl-[45%] z-0" src={logo} alt="" />
         {/* <video
@@ -36,7 +36,7 @@ const AboutSkills = () => {
         <div className="lg:w-[22%] w-[100%] lg:fixed z-20 h-screen bg-white">
           <SkillsList />
         </div>
-        <div className="lg:w-[80%] w-auto lg:absolute  flex  z-60 h-[200vh]  right-0">
+        <div className="lg:w-[80%] w-auto lg:absolute  flex  z-60   right-0">
           <Routes>
             <Route path="paint" element={<Paint className="scroll " />} />
             <Route path="detail" element={<Detail className="scroll" />} />

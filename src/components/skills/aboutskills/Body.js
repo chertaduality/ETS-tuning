@@ -11,7 +11,7 @@ const Body = () => {
     <div className="mt-36 bg-white">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 justify-center items-center">
           <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             Ремонт кузова автомобиля – это наиболее затратный по времени и цене
@@ -24,7 +24,7 @@ const Body = () => {
             максимально короткие сроки!
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 justify-center items-center">
           <p className="p-8 text-xl">
             <ul>
               Мастера кузовного цеха нашего ателье выполняют работы по:

@@ -13,13 +13,13 @@ const ProjectCard = ({ title, des, src, link }) => {
   return (
     <div>
       {' '}
-      <Link to="aboutprojects" className="ml-0 pl-0">
+      <Link onClick={scrollToTop} to="aboutprojects" className="ml-0 pl-0">
         <div className="w-full xl:h-[800px] h-[300px] overflow-hidden xl:px-6  first-letter:mx-[-20px] xl:py-12 rounded-lg shadow-xl flex flex-col bg-bodyColor group  transition-colors duration-1000 group hover:shadow-2xl">
           {' '}
           <div className="w-full mx-4  xl:h-[90%] h-[70%] overflow-hidden rounded-lg z-[50]">
             {' '}
             <img
-              className="w-full  h-[700px] object-cover group-hover:scale-110 duration-300"
+              className="w-full   object-cover group-hover:scale-110 duration-300"
               src={src}
               alt="img"
             />
@@ -31,10 +31,7 @@ const ProjectCard = ({ title, des, src, link }) => {
                   {title}
                 </h3>
 
-                <div
-                  onClick={scrollToTop}
-                  className="w-full flex  flex-col justify-between items-center"
-                >
+                <div className="w-full flex  flex-col justify-between items-center">
                   <p className="flex text-m font-semibold mt-20 hover:text-designColor duration-100">
                     Узнать больше
                     <span className="items-center px-4 flex text-2xl text-designColor ">

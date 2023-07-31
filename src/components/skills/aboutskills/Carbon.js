@@ -11,7 +11,7 @@ const Carbon = () => {
     <div className="mt-36 bg-white">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
-        <div className="grid grid-cols-2 gap-4 mt-16 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-16 justify-center items-center">
           <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             Карбон (углепластики, карбонопластики, от англ. carbon — углерод) —
@@ -20,7 +20,7 @@ const Carbon = () => {
             эпоксидных) смол. Плотность — от 1450 кг/м³ до 2000 кг/м³.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4 mt-4 justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-4 justify-center items-center">
           <p className="p-8 text-xl">
             Материалы отличаются высокой прочностью, жёсткостью и малой массой,
             часто прочнее стали, и гораздо легче. По удельным характеристикам

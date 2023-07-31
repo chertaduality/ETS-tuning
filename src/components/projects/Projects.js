@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import Title from './../layouts/Title';
 import ProjectCard from './ProjectCard';
-import projectVandal from '../../assets/images/projects/Jeep Wrangler JK (Vandal)/IMG_8004.jpg';
-import xklasseextreme from '../../components/projects/posts/xklasseextreme/img/1.jpg';
-import projectRam from '../../assets/images/projects/Dodge RAM/IMG_7509.jpg';
-import panamera from '../../components/projects/posts/panamera/img/0.jpg';
-import projectGAMG from '../../assets/images/projects/Mercedes—Benz G class AMG/Mer_01_.jpg';
-import extremeBlack from '../../components/projects/posts/mbclassicextremeblack/img/1.jpg';
+import projectVandal from './buttons/Vandal.jpg';
+import xklasseextreme from './buttons/extreme.jpg';
+import projectRam from './buttons/laramie.jpg';
+import panamera from './buttons/panamera.jpg';
+import projectGAMG from './buttons/GAMG.jpg';
+import extremeBlack from './buttons/Xblack.jpg';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
 
 const SampleNextArrow = (props) => {

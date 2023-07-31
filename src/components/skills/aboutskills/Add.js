@@ -13,7 +13,7 @@ const Add = () => {
     <div className="mt-36 bg-white">
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <h1 className="font-titleFont text-2xl ">Что тут делают?</h1>
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <img src={img1} alt="1" />
           <p className="p-8 text-xl">
             Наши специалисты устанавливают широкий спектр дополнительного
@@ -21,7 +21,7 @@ const Add = () => {
             автомобиля. Все работы выполняем быстро, на совесть и с гарантиями.
           </p>
         </div>
-        <div className="grid grid-cols-2 gap-4  justify-center items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           {/* <p className="p-8 text-xl">
             <h3>Сигнализация</h3> Готовы установить сигнализацию любого типа - с
             двухсторонней связью, с автозапуском двигателя, диалоговые модели,

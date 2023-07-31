@@ -1,10 +1,11 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
+import { IoIosArrowDropdown } from 'react-icons/io';
 
 const PostsList = () => {
   const scrollToBottom = () => {
     window.scroll({
-      top: document.body.offsetHeight,
+      top: 700,
       bottom: 0,
       behavior: 'smooth',
     });
@@ -23,7 +24,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Jeep Wrangler JK (Vandal)
             </Link>
@@ -39,7 +40,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Mercedes—Benz G class AMG
             </Link>
@@ -55,7 +56,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Jeep Wrangler JL
             </Link>
@@ -71,7 +72,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               X-Klasse Extreme
             </Link>
@@ -87,7 +88,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Mercedes-Benz classic extreme black
             </Link>
@@ -103,7 +104,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Mercedes-Benz X-class forester
             </Link>
@@ -119,7 +120,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Dodge RAM 1500 Laramie
             </Link>
@@ -135,7 +136,7 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Porsche Panamera
             </Link>
@@ -151,13 +152,18 @@ const PostsList = () => {
               smooth={true}
               offset={-70}
               duration={1000}
-              onClick={scrollToBottom}
+              // onClick={scrollToBottom}
             >
               Toyota Sera
             </Link>
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
         </li>
+        <IoIosArrowDropdown
+          className="w-16 h-16 absolute text-gray-500 top-[700px]
+          left-[42%] opacity-30 hover:opacity-80 hover:scale-105 md:hidden block animate-pulse  cursor-pointer"
+          onClick={scrollToBottom}
+        />
       </ul>
     </div>
   );
