@@ -13,16 +13,18 @@ const Main = () => {
     <div>
       <div className="w-full h-auto bg-bodyColor text-lightText">
         <Banner />
-        <div className="max-w-screen-xl mx-auto ">
+        <div className="max-w-screen-xl mx-auto">
           <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
             <About />
           </AnimationOnScroll>
           <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
             <Skills />
           </AnimationOnScroll>
-          <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
-            <Projects />
-          </AnimationOnScroll>
+        </div>
+        <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
+          <Projects />
+        </AnimationOnScroll>
+        <div className="max-w-screen-xl mx-auto">
           <AnimationOnScroll animateIn="animate__fadeIn" animateOnce={true}>
             <Partners />
           </AnimationOnScroll>

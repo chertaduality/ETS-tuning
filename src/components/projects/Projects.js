@@ -40,7 +40,19 @@ const Projects = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 2,
+    swipeToSlide: true,
 
+    responsive: [
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
+          arrows: false,
+        },
+      },
+    ],
     nextArrow: <SampleNextArrow />,
     prevArrow: <SamplePrevArrow />,
     beforeChange: (prev, next) => {
@@ -94,7 +106,7 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="xxl:w-[195%] w-full xxl:ml-[-48%] py-20 mb-20 pt-40 border-b-black xs:py-5"
+      className="w-full py-20 mb-20 pt-40 border-b-black xs:py-5"
     >
       {/* <section
       id="projects"
