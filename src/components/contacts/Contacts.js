@@ -1,49 +1,48 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Title from './../layouts/Title';
 import ContactLeft from './ContactLeft';
 
 const Contacts = () => {
-  const [userName, setUsername] = useState('');
-  const [phoneNumber, setPhoneNumber] = useState('');
-  const [email, setEmail] = useState('');
-  const [subject, setSubject] = useState('');
-  const [message, setMessage] = useState('');
-  const [errMsg, setErrMsg] = useState('');
-  const [successMsg, setSuccessMsg] = useState('');
+  // const [userName, setUsername] = useState('');
+  // const [phoneNumber, setPhoneNumber] = useState('');
+  // const [email, setEmail] = useState('');
+  // const [subject, setSubject] = useState('');
+  // const [message, setMessage] = useState('');
+  // const [errMsg, setErrMsg] = useState('');
+  // const [successMsg, setSuccessMsg] = useState('');
 
-  const emailValidation = () => {
-    return String(email)
-      .toLocaleLowerCase()
-      .match(
-        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
-      );
-  };
+  // const emailValidation = () => {
+  //   return String(email)
+  //     .toLocaleLowerCase()
+  //     .match(
+  //       /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|.(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+  //     );
+  // };
 
-  const handleSend = (e) => {
-    e.preventDefault();
-    if (userName === '') {
-      setErrMsg('Укажите пожалуйста имя!');
-    } else if (phoneNumber === '') {
-      setErrMsg('Укажите пожалуйста телефон!');
-    } else if (email === '') {
-      setErrMsg('Укажите пожалуйста адрес электронной почты!');
-    } else if (!emailValidation(email)) {
-      setErrMsg('Укажите пожалуйста корректный адрес электронной почты!');
-    } else if (subject === '') {
-      setErrMsg('Укажите пожалуйста тему!');
-    } else if (message === '') {
-      setErrMsg('Введите пожалуйста текст сообщения!');
-    } else {
-      setSuccessMsg(`Спасибо, ${userName}, Ваше сообщение отправлено!`);
-      setErrMsg('');
-      setUsername('');
-      setPhoneNumber('');
-      setEmail('');
-      setSubject('');
-      setMessage('');
-      // console.log(userName, phoneNumber, email, subject, message);
-    }
-  };
+  // const handleSend = (e) => {
+  //   e.preventDefault();
+  //   if (userName === '') {
+  //     setErrMsg('Укажите пожалуйста имя!');
+  //   } else if (phoneNumber === '') {
+  //     setErrMsg('Укажите пожалуйста телефон!');
+  //   } else if (email === '') {
+  //     setErrMsg('Укажите пожалуйста адрес электронной почты!');
+  //   } else if (!emailValidation(email)) {
+  //     setErrMsg('Укажите пожалуйста корректный адрес электронной почты!');
+  //   } else if (subject === '') {
+  //     setErrMsg('Укажите пожалуйста тему!');
+  //   } else if (message === '') {
+  //     setErrMsg('Введите пожалуйста текст сообщения!');
+  //   } else {
+  //     setSuccessMsg(`Спасибо, ${userName}, Ваше сообщение отправлено!`);
+  //     setErrMsg('');
+  //     setUsername('');
+  //     setPhoneNumber('');
+  //     setEmail('');
+  //     setSubject('');
+  //     setMessage('');
+  //   }
+  // };
 
   return (
     <section id="contacts" className="w-full py-20 border-b-black px-10">
@@ -61,7 +60,8 @@ const Contacts = () => {
               width="750"
               height="550"
               frameborder="0"
-            ></iframe>
+              title="ETS-map"
+            />
             {/* <form className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-4">
               {errMsg && (
                 <p className="py-3 bg-gradient-to-r from-[#bb3200] to-[#b0251d] shadow-xl text-center text-white text-base tracking-wide animate-bounce">

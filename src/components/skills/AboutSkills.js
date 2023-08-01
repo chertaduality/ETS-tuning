@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Route, Routes } from 'react-router-dom';
-import { FiMenu } from 'react-icons/fi';
-import { MdClose } from 'react-icons/md';
-import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
-import { SlSocialVkontakte } from 'react-icons/sl';
-import videoSampleProj from '../../../src/assets/video/logo5.mp4';
+// import { FiMenu } from 'react-icons/fi';
+// import { MdClose } from 'react-icons/md';
+// import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
+// import { SlSocialVkontakte } from 'react-icons/sl';
+// import videoSampleProj from '../../../src/assets/video/logo5.mp4';
 import Paint from './aboutskills/Paint';
 import Detail from './aboutskills/Detail';
 import Carbon from './aboutskills/Carbon';
@@ -23,14 +23,6 @@ const AboutSkills = () => {
     <section className="w-screen h-auto">
       <div className="w-full">
         <img className="absolute pt-[20%] pl-[45%] z-0" src={logo} alt="" />
-        {/* <video
-          className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
-          id="/"
-          autoPlay
-          muted
-        >
-          <source src={videoSampleProj} type="video/mp4" />
-        </video> */}
       </div>
       <div className="flex flex-col">
         <div className="lg:w-[22%] w-[100%] lg:fixed z-20  bg-white">

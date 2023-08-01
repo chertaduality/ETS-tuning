@@ -75,10 +75,7 @@ const Xklasseextreme = () => {
           Согласно эскизу и техническому заданию, салон был перешит эксклюзивным
           узором с использованием элементов из натуральной кожи.
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
-          {/* <img className="w-full" src={img8} alt="8" /> */}
-          {/* <img className="w-full" src={img9} alt="9" /> */}
-        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center"></div>
       </div>
     </div>
   );

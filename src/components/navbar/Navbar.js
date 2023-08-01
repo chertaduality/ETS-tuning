@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import { Link } from 'react-scroll';
 import logo from '../../assets/images/ETS_logo_black3.png';
 import logo2 from '../../assets/images/ETS_logo_black4.png';
 import { navLinksdata } from '../../constants';
@@ -7,7 +6,6 @@ import { FiMenu } from 'react-icons/fi';
 import { MdClose } from 'react-icons/md';
 import { FaTelegram, FaWhatsapp } from 'react-icons/fa';
 import { SlSocialVkontakte } from 'react-icons/sl';
-// import { Link } from 'react-router-dom';
 import { HashLink as Link } from 'react-router-hash-link';
 
 const Navbar = (_id, title, link) => {
@@ -45,7 +43,7 @@ const Navbar = (_id, title, link) => {
             onClick={scrollToTop}
           >
             <Link
-              activeClass="active"
+              activeClassN="active"
               to="/"
               spy={true}
               smooth={true}
@@ -131,25 +129,6 @@ const Navbar = (_id, title, link) => {
             </Link>
           </li>
         </ul>
-        {/* <ul className="hidden mdl:inline-flex items-center gap-4 lg:gap-10">
-          {navLinksdata.map(({ _id, title, link }) => (
-            <li
-              className="font-titleFont  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 "
-              key={_id}
-            >
-              <Link
-                activeClass="active"
-                to={link}
-                spy={true}
-                smooth={true}
-                offset={-70}
-                duration={1000}
-              >
-                {title}
-              </Link>
-            </li>
-          ))}
-        </ul> */}
         <span
           onClick={() => setShowMenu(!showMenu)}
           className="text-xl mdl:hidden bg-black w-10 h-10 inline-flex items-center justify-center rounded-full text-white hover:text-designColor cursor-pointer m-8"

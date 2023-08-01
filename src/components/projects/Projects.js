@@ -108,31 +108,17 @@ const Projects = () => {
       id="projects"
       className="w-full py-20 mb-20 pt-40 border-b-black xs:py-5"
     >
-      {/* <section
-      id="projects"
-      className="w-full pb-20 items-center py-20 mb-20 border-b-black xs:py-5"
-    > */}
       <div className="flex font-titleFont justify-center items-center text-center">
         {/* <Title title="Наши проекты" des="Что мы уже сделали?" /> */}
         <Title title="Наши проекты" />
       </div>
       <div className="w-full ">
         <Slider className="w-full " {...settings}>
-          {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 xl:gap-14"> */}
           <div className="p-4">
             <ProjectCard
               title="Jeep Wrangler JK (Vandal)"
               src={projectVandal}
-              des=" 
-     • Современный окрас кузова в стиле Kryptek
-     • Подвеска повышенной проходимости 
-     • Салон перешив в стиле автомобиля с вышивкой логотипов 
-     • Аудио система  от Alpine 
-     • По всему кузову установлен дополнительное освещение от RIGID 
-     • Установлен обвес 
-     • Мощный двигатель 7.0 Hemi 
-     • Большие колёса 
-     • Задний диван разделён и смещён на два капитанских кресла"
+              des=" "
             />
           </div>
 
@@ -144,57 +130,25 @@ const Projects = () => {
             />
           </div>
           <div className="p-4">
-            <ProjectCard
-              title="Dodge RAM"
-              src={projectRam}
-              des=" • Полный окрас в снежный kryptek
-          • Полный глобальный перешив салона из светлого серого в чёрный 
-          • Выхлопная система с регулировкой громкости 
-          • Замена передняя оптика "
-            />
+            <ProjectCard title="Dodge RAM" src={projectRam} des="" />
           </div>
           <div className="p-4">
-            <ProjectCard
-              title="Porsche Panamera"
-              src={panamera}
-              des=" • Полное удаление старого керамического покрытия 
-          • 3х этапная полировка кузова  с разбором всех логотипов 
-          • Обработка кузова керамическим составом "
-            />
+            <ProjectCard title="Porsche Panamera" src={panamera} des="" />
           </div>
           <div className="p-4">
             <ProjectCard
               title="Mercedes—Benz G class AMG"
               src={projectGAMG}
-              des="- Полный перекрас кузова в матовый камуфляж 
-          - Установка пневмоподкачки шин с управлением из салона на компонентах Airlift
-          - Поменяли всю оптику на диодную и брутальную 
-          - Перешив всего салона в кожу Nappa с Alcantara 
-          - Замена заднего дивана на два кресла от BMW 7
-          - Изготовление расширения на кузов с последующим покрасом 
-          - Установка балки света и задних доп.сигналов от @rigidrussia 
-          - Установка бортовых редукторов тибус последнего поколения 
-          - Выхлопная система 
-           ⁃ Выдвижные пороги 
-          - Усиленные пружины 
-          - Установка армотизаторов с выносным бачком 
-          - Изготовлены и установлены тяги панара 
-          - Установка кастомных колёс 37 дюймов 
-          -Чип тюнинг двигателя 5.5 bi-turbo 
-          -Изготовление колпаков на колёса 
-          -Печать шильдиков на 3D—принтере"
+              des=""
             />
           </div>
           <div className="p-4">
             <ProjectCard
               title="Mercedes-Benz classic extreme black"
               src={extremeBlack}
-              des=" • Ремонт губы 
-          • Окрас задней стойки 
-          • Мойка автомобиля "
+              des=""
             />
           </div>
-          {/* </div> */}
         </Slider>
       </div>
     </section>

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Title from '../layouts/Title';
-import Slider from 'react-slick';
-import partner1 from '../../assets/partners/PremiumCaste-cvet.webp';
-import partner2 from '../../assets/partners/592462.webp';
-import partner3 from '../../assets/partners/Sti-Logo.png';
-import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
+// import Slider from 'react-slick';
+// import partner1 from '../../assets/partners/PremiumCaste-cvet.webp';
+// import partner2 from '../../assets/partners/592462.webp';
+// import partner3 from '../../assets/partners/Sti-Logo.png';
+// import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
 import aceoface from '../../assets/images/partners/aceoface.jpg';
 import allsubaru from '../../assets/images/partners/allsubaru.png';
 import ChemicalRussia from '../../assets/images/partners/ChemicalRussia.png';
@@ -16,85 +16,85 @@ import statlight from '../../assets/images/partners/statlight.png';
 import subaru from '../../assets/images/partners/subaru.jpg';
 import vdashop from '../../assets/images/partners/vdashop.jpg';
 
-const SampleNextArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-[400px] lgl:right-20 xs:right-0 xs:top-0 md:right-[40%]"
-      onClick={onClick}
-    >
-      <BiRightArrow />
-    </div>
-  );
-};
-const SamplePrevArrow = (props) => {
-  const { onClick } = props;
-  return (
-    <div
-      className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-[400px] lgl:right-40 md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
-      onClick={onClick}
-    >
-      <BiLeftArrow />
-    </div>
-  );
-};
+// const SampleNextArrow = (props) => {
+//   const { onClick } = props;
+//   return (
+//     <div
+//       className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute hover:shadow-xl cursor-pointer z-10 lgl:top-[400px] lgl:right-20 xs:right-0 xs:top-0 md:right-[40%]"
+//       onClick={onClick}
+//     >
+//       <BiRightArrow />
+//     </div>
+//   );
+// };
+// const SamplePrevArrow = (props) => {
+//   const { onClick } = props;
+//   return (
+//     <div
+//       className="w-14 h-12 bg-[#4f4f4f] hover:bg-black duration-300 rounded-md text-2xl text-white hover:text-designColor flex justify-center items-center absolute lgl:top-[400px] lgl:right-40 md:right-[50%] xs:right-[80%] hover:shadow-xl cursor-pointer z-10"
+//       onClick={onClick}
+//     >
+//       <BiLeftArrow />
+//     </div>
+//   );
+// };
 const Partners = () => {
-  const [dotActive, setDotActive] = useState(0);
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    nextArrow: <SampleNextArrow />,
-    prevArrow: <SamplePrevArrow />,
-    beforeChange: (prev, next) => {
-      setDotActive(next);
-    },
-    appendDots: (dots) => (
-      <div
-        style={{
-          borderRadius: '10px',
-          padding: '10px',
-        }}
-      >
-        <ul
-          style={{
-            display: 'flex',
-            gap: '15px',
-            justifyContent: 'center',
-            marginTop: '20px',
-          }}
-        >
-          {' '}
-          {dots}{' '}
-        </ul>
-      </div>
-    ),
-    customPaging: (i) => (
-      <div
-        style={
-          i === dotActive
-            ? {
-                width: '12px',
-                height: '12px',
-                color: 'blue',
-                background: '#a70101',
-                borderRadius: '50%',
-                cursor: 'pointer',
-              }
-            : {
-                width: '12px',
-                height: '12px',
-                color: 'blue',
-                background: 'gray',
-                borderRadius: '50%',
-                cursor: 'pointer',
-              }
-        }
-      ></div>
-    ),
-  };
+  // const [dotActive, setDotActive] = useState(0);
+  // const settings = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
+  //   nextArrow: <SampleNextArrow />,
+  //   prevArrow: <SamplePrevArrow />,
+  //   beforeChange: (prev, next) => {
+  //     setDotActive(next);
+  //   },
+  //   appendDots: (dots) => (
+  //     <div
+  //       style={{
+  //         borderRadius: '10px',
+  //         padding: '10px',
+  //       }}
+  //     >
+  //       <ul
+  //         style={{
+  //           display: 'flex',
+  //           gap: '15px',
+  //           justifyContent: 'center',
+  //           marginTop: '20px',
+  //         }}
+  //       >
+  //         {' '}
+  //         {dots}{' '}
+  //       </ul>
+  //     </div>
+  //   ),
+  //   customPaging: (i) => (
+  //     <div
+  //       style={
+  //         i === dotActive
+  //           ? {
+  //               width: '12px',
+  //               height: '12px',
+  //               color: 'blue',
+  //               background: '#a70101',
+  //               borderRadius: '50%',
+  //               cursor: 'pointer',
+  //             }
+  //           : {
+  //               width: '12px',
+  //               height: '12px',
+  //               color: 'blue',
+  //               background: 'gray',
+  //               borderRadius: '50%',
+  //               cursor: 'pointer',
+  //             }
+  //       }
+  //     ></div>
+  //   ),
+  // };
   return (
     <section id="partners" className="w-full  border-b-black ">
       <div className="flex justify-center items-center text-center">

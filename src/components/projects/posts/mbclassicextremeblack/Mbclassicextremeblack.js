@@ -71,7 +71,6 @@ const Mbclassicextremeblack = () => {
       </div>
       <div className="w-full flex flex-col justify-center items -center text-center p-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-center items-center">
-          {/* <img src={img5} alt="5" /> */}
           <h3 className="font-titleFont text-2xl">
             ДОПОЛНИТЕЛЬНЫЕ БЛОКИ И ОБОРУДОВАНИЕ
           </h3>

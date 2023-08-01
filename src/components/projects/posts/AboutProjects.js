@@ -11,21 +11,9 @@ import Laramie from './laramie/Laramie';
 import Panamera from './panamera/Panamera';
 import Sera from './sera/Sera';
 
-// import videoSampleProj from '../../../assets/video/logo6.mp4';
-
 const AboutProjects = () => {
   return (
     <section className="w-screen ">
-      {/* <div className="w-full fixed">
-        <video
-          className="absolute z-10 w-auto min-w-full min-h-full max-w-none bg-fixed"
-          id="/"
-          autoPlay
-          muted
-        >
-          <source src={videoSampleProj} type="video/mp4" />
-        </video>
-      </div> */}
       <div className="flex flex-col">
         <div className="lg:w-[20%] w-[100%] lg:fixed z-20 h-screen bg-white">
           <PostsList />
