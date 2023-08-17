@@ -3,6 +3,10 @@ import img1 from './images/paint/1.jpg';
 import img2 from './images/paint/2.jpg';
 import img3 from './images/paint/3.jpg';
 import img4 from './images/paint/4.jpg';
+import img5 from './images/paint/5.jpg';
+import img6 from './images/paint/6.jpg';
+import img7 from './images/paint/7.jpg';
+import img8 from './images/paint/8.jpg';
 
 const Paint = () => {
   return (
@@ -19,17 +23,28 @@ const Paint = () => {
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center">
           <p className="p-8 text-xl">
-            Если Вы решите заказать у нас окрас автомобиля, то можете быть
-            полностью уверены в том, что наши мастера проведут аккуратнейшим
-            образом осуществят снятие\установку всех необходимых элементов, а
-            после окончания работ также аккуратно вернут их на их законные
-            места.{' '}
+            <ul>
+              <li>- Локальный покрас;</li>
+              <li>- Эксклюзивные краски;</li>
+              <li>- Трехслойные краски;</li>
+              <li>- Камуфляж;</li>
+              <li>- Окрас с использованием винила;</li>
+              <li>- Покраска суппортов;</li>
+              <li>- Покраска дисков;</li>
+              <li>- Покраска деталей салона;</li>
+              <li>- Порошковая покраска;</li>
+              <li>- Покраска "раптор"</li>
+            </ul>
           </p>{' '}
           <img src={img2} alt="2" />
         </div>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4  justify-center items-center mt-4">
           <img src={img3} alt="3" />
           <img src={img4} alt="4" />
+          <img src={img5} alt="5" />
+          <img src={img6} alt="6" />
+          <img src={img7} alt="7" />
+          <img src={img8} alt="8" />
         </div>
       </div>
     </div>

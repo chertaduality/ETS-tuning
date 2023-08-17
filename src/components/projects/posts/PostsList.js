@@ -159,6 +159,38 @@ const PostsList = () => {
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
         </li>
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
+          <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
+            <Link
+              activeClass="active"
+              to="scirocco"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              // onClick={scrollToBottom}
+            >
+              VolksWagen Scirocco "Green Cheese"
+            </Link>
+            <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+          </span>
+        </li>
+        <li className="font-bodyFont font-semibold  text-black tracking-wide cursor-pointer hover:text-designColor duration-300 ">
+          <span className="w-full text-lg hover:text-designColor duration-300 cursor-pointer relative group">
+            <Link
+              activeClass="active"
+              to="tesla"
+              spy={true}
+              smooth={true}
+              offset={-70}
+              duration={1000}
+              // onClick={scrollToBottom}
+            >
+              Tesla Model 3 Perfomance
+            </Link>
+            <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
+          </span>
+        </li>
         <IoIosArrowDropdown
           className="w-16 h-16 absolute text-gray-500 top-[600px]
           left-[42%] opacity-30 hover:opacity-80 hover:scale-105 md:hidden block animate-pulse  cursor-pointer"

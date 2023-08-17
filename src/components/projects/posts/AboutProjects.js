@@ -10,6 +10,8 @@ import Forester from './forester/Forester';
 import Laramie from './laramie/Laramie';
 import Panamera from './panamera/Panamera';
 import Sera from './sera/Sera';
+import Scirocco from './scirocco/Scirocco';
+import Tesla from './tesla/Tesla';
 
 const AboutProjects = () => {
   return (
@@ -42,6 +44,8 @@ const AboutProjects = () => {
             <Route path="laramie" element={<Laramie className="scroll" />} />
             <Route path="panamera" element={<Panamera className="scroll" />} />
             <Route path="sera" element={<Sera className="scroll" />} />
+            <Route path="scirocco" element={<Scirocco className="scroll" />} />
+            <Route path="tesla" element={<Tesla className="scroll" />} />
           </Routes>
         </div>
       </div>

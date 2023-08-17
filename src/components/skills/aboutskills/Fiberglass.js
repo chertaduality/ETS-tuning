@@ -3,6 +3,8 @@ import img1 from './images/fiberglass/1.jpeg';
 import img2 from './images/fiberglass/2.jpg';
 import img3 from './images/fiberglass/3.jpg';
 import img4 from './images/fiberglass/4.jpg';
+import img7 from './images/fiberglass/7.jpg';
+import img8 from './images/fiberglass/8.jpg';
 
 const Fiberglass = () => {
   return (
@@ -51,6 +53,8 @@ const Fiberglass = () => {
             автомобиль не составит труда.
           </p>
           <img src={img3} alt="3" />
+          <img src={img7} alt="7" />
+          <img src={img8} alt="8" />
           <p className="p-8 text-xl"></p>
         </div>
       </div>

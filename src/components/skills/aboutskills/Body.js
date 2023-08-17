@@ -5,6 +5,9 @@ import img3 from './images/body/3.jpg';
 import img4 from './images/body/4.jpg';
 import img5 from './images/body/5.jpg';
 import img6 from './images/body/6.jpg';
+import img7 from './images/body/7.jpg';
+import img8 from './images/body/8.jpg';
+import img9 from './images/body/9.jpg';
 
 const Body = () => {
   return (
@@ -41,6 +44,9 @@ const Body = () => {
           <img src={img4} alt="4" />
           <img src={img5} alt="5" />
           <img src={img6} alt="6" />
+          <img src={img7} alt="7" />
+          <img src={img8} alt="8" />
+          <img src={img9} alt="9" />
         </div>
       </div>
     </div>
