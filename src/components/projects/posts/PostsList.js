@@ -170,7 +170,7 @@ const PostsList = () => {
               duration={1000}
               // onClick={scrollToBottom}
             >
-              VolksWagen Scirocco "Green Cheese"
+              Volkswagen Scirocco "Green Cheese"
             </Link>
             <span className="absolute h-[2px] w-full inline-flex bg-designColor -bottom-1 left-0 -translate-x-[100%] group-hover:translate-x-0 transition-transform duration-300"></span>
           </span>
