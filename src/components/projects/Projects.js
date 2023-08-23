@@ -8,6 +8,9 @@ import projectRam from './buttons/laramie.jpg';
 import panamera from './buttons/panamera.jpg';
 import projectGAMG from './buttons/GAMG.jpg';
 import extremeBlack from './buttons/Xblack.jpg';
+import greenCheese from './buttons/greenCheese.jpg';
+import sera from './buttons/sera.jpg';
+import m3Perfomance from './buttons/m3Perfomance.jpg';
 import { BiRightArrow, BiLeftArrow } from 'react-icons/bi';
 
 const SampleNextArrow = (props) => {
@@ -146,6 +149,27 @@ const Projects = () => {
             <ProjectCard
               title="Mercedes-Benz classic extreme black"
               src={extremeBlack}
+              des=""
+            />
+          </div>
+          <div className="p-4">
+            <ProjectCard
+              title="Volkswagen Scirocco Green Cheese"
+              src={greenCheese}
+              des=""
+            />
+          </div>
+          <div className="p-4">
+            <ProjectCard
+              title="Toyota Sera"
+              src={sera}
+              des=""
+            />
+          </div>
+          <div className="p-4">
+            <ProjectCard
+              title="Tesla Model 3 Perfomance"
+              src={m3Perfomance}
               des=""
             />
           </div>
