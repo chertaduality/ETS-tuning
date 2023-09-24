@@ -32,7 +32,7 @@ const ContactLeft = () => {
         </h2>
         <div className="flex justify-center gap-4">
           <a
-            href="https://t.me/ACtuning"
+            href="https://t.me/ETSracing"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -53,7 +53,7 @@ const ContactLeft = () => {
           </a>
 
           <a
-            href="https://vk.com/engineering77"
+            href="https://vk.com/etstuning"
             target="_blank"
             rel="noopener noreferrer"
           >
