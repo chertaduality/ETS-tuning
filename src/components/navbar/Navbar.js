@@ -243,33 +243,33 @@ const Navbar = (_id, title, link) => {
             </div>
             <div className="flex justify-start gap-4 py-4">
               <a
-                href="https://t.me/ACtuning"
+                href="https://t.me/ETSracing"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {' '}
-                <span className="iconStyle">
+                <span className=" bg-gray-700 iconStyle">
                   <FaTelegram />
                 </span>
               </a>
               <a
-                href="https://wa.me/9955059898"
+                            href="https://wa.me/9955059898"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {' '}
-                <span className="iconStyle">
+                <span className=" bg-gray-700 iconStyle">
                   <FaWhatsapp />
                 </span>
               </a>
 
               <a
-                href="https://vk.com/engineering77"
+                href="https://vk.com/etstuning"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 {' '}
-                <span className="iconStyle">
+                <span className=" bg-gray-700 iconStyle">
                   <SlSocialVkontakte />
                 </span>
               </a>
